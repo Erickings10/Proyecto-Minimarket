@@ -221,7 +221,6 @@ namespace SoftwareMinimarket
         {
             try
             {
-
                 bool resultado = logNotaEntrada.Instancia.DeshabilitarNotaEntrada(desnotaEntrada);
 
                 if (resultado)

@@ -52,17 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDetalleRequerimiento.cs">
+    <Compile Include="FormAgregarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDetalleRequerimiento.Designer.cs">
-      <DependentUpon>FormDetalleRequerimiento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormProductoBajoStock.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProductoBajoStock.Designer.cs">
-      <DependentUpon>FormProductoBajoStock.cs</DependentUpon>
+    <Compile Include="FormAgregarCliente.Designer.cs">
+      <DependentUpon>FormAgregarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloAgregarProducto.cs">
       <SubType>Form</SubType>
@@ -135,11 +129,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDetalleRequerimiento.resx">
-      <DependentUpon>FormDetalleRequerimiento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormProductoBajoStock.resx">
-      <DependentUpon>FormProductoBajoStock.cs</DependentUpon>
+    <EmbeddedResource Include="FormAgregarCliente.resx">
+      <DependentUpon>FormAgregarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloAgregarProducto.resx">
       <DependentUpon>ModuloAgregarProducto.cs</DependentUpon>

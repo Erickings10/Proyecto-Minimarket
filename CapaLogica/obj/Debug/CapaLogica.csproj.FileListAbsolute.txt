@@ -42,14 +42,14 @@ D:\DIARS\SoftwareMinimarket\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileIn
 D:\DIARS\SoftwareMinimarket\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
 D:\DIARS\SoftwareMinimarket\CapaLogica\obj\Debug\CapaLogica.dll
 D:\DIARS\SoftwareMinimarket\CapaLogica\obj\Debug\CapaLogica.pdb
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaLogica.dll
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaLogica.pdb
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaDatos.dll
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaEntidad.dll
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaDatos.pdb
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaEntidad.pdb
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.dll
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Software-Minimarket\CapaLogica\obj\Debug\CapaLogica.pdb

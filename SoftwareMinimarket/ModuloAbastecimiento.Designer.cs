@@ -32,40 +32,38 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cmbPrioridad = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.btnBajoStock = new System.Windows.Forms.Button();
-            this.txtProducto = new System.Windows.Forms.TextBox();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btn_regresar = new System.Windows.Forms.PictureBox();
-            this.dgvDetalleRequerimiento = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Prioridad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnMostrarDet = new System.Windows.Forms.Button();
-            this.chbEstado = new System.Windows.Forms.CheckBox();
-            this.btnRegistrarReq = new System.Windows.Forms.Button();
+            this.btnProveedor = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtProveedor = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.columnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnPro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnFec = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnTot = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnEst = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_regresar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleRequerimiento)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(253, 9);
+            this.label1.Location = new System.Drawing.Point(224, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 32);
+            this.label1.Size = new System.Drawing.Size(306, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "REQUERIMIENTO";
+            this.label1.Text = "ORDEN DE COMPRA";
             // 
             // label2
             // 
@@ -83,9 +81,19 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 123);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
+            this.label3.Size = new System.Drawing.Size(71, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "CANTIDAD:";
+            this.label3.Text = "FECHA:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(6, 168);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "TOTAL:";
             // 
             // label5
             // 
@@ -93,9 +101,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(6, 79);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 20);
+            this.label5.Size = new System.Drawing.Size(121, 20);
             this.label5.TabIndex = 4;
-            this.label5.Text = "PRODUCTO:";
+            this.label5.Text = "PROVEEDOR:";
             // 
             // panel1
             // 
@@ -110,172 +118,144 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.groupBox1.Controls.Add(this.cmbPrioridad);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtCantidad);
-            this.groupBox1.Controls.Add(this.btnBajoStock);
-            this.groupBox1.Controls.Add(this.txtProducto);
-            this.groupBox1.Controls.Add(this.txtID);
+            this.groupBox1.Controls.Add(this.btnProveedor);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtProveedor);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(9, 62);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(326, 203);
+            this.groupBox1.Size = new System.Drawing.Size(326, 248);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS";
             // 
-            // cmbPrioridad
+            // btnProveedor
             // 
-            this.cmbPrioridad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbPrioridad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbPrioridad.FormattingEnabled = true;
-            this.cmbPrioridad.Location = new System.Drawing.Point(130, 166);
-            this.cmbPrioridad.Name = "cmbPrioridad";
-            this.cmbPrioridad.Size = new System.Drawing.Size(121, 26);
-            this.cmbPrioridad.TabIndex = 14;
+            this.btnProveedor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProveedor.BackgroundImage")));
+            this.btnProveedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnProveedor.Location = new System.Drawing.Point(260, 75);
+            this.btnProveedor.Name = "btnProveedor";
+            this.btnProveedor.Size = new System.Drawing.Size(30, 30);
+            this.btnProveedor.TabIndex = 11;
+            this.btnProveedor.UseVisualStyleBackColor = true;
+            this.btnProveedor.Click += new System.EventHandler(this.btnProveedor_Click);
             // 
-            // label4
+            // dateTimePicker1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 168);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 20);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "PRIORIDAD:";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(83, 121);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(135, 22);
+            this.dateTimePicker1.TabIndex = 10;
             // 
-            // txtCantidad
+            // checkBox1
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(130, 123);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(121, 22);
-            this.txtCantidad.TabIndex = 12;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(10, 212);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(100, 24);
+            this.checkBox1.TabIndex = 9;
+            this.checkBox1.Text = "ESTADO";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // btnBajoStock
+            // textBox4
             // 
-            this.btnBajoStock.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBajoStock.BackgroundImage")));
-            this.btnBajoStock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnBajoStock.Location = new System.Drawing.Point(264, 75);
-            this.btnBajoStock.Name = "btnBajoStock";
-            this.btnBajoStock.Size = new System.Drawing.Size(30, 30);
-            this.btnBajoStock.TabIndex = 11;
-            this.btnBajoStock.UseVisualStyleBackColor = true;
-            this.btnBajoStock.Click += new System.EventHandler(this.btnBajoStock_Click);
+            this.textBox4.Location = new System.Drawing.Point(80, 168);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.TabIndex = 8;
             // 
-            // txtProducto
+            // txtProveedor
             // 
-            this.txtProducto.Location = new System.Drawing.Point(130, 79);
-            this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(121, 22);
-            this.txtProducto.TabIndex = 6;
+            this.txtProveedor.Location = new System.Drawing.Point(130, 79);
+            this.txtProveedor.Name = "txtProveedor";
+            this.txtProveedor.Size = new System.Drawing.Size(124, 22);
+            this.txtProveedor.TabIndex = 6;
             // 
-            // txtID
+            // textBox1
             // 
-            this.txtID.Location = new System.Drawing.Point(43, 31);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(50, 22);
-            this.txtID.TabIndex = 5;
+            this.textBox1.Location = new System.Drawing.Point(43, 31);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 5;
             // 
-            // btnAgregar
+            // dataGridView1
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnAgregar.Location = new System.Drawing.Point(9, 321);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(158, 56);
-            this.btnAgregar.TabIndex = 9;
-            this.btnAgregar.Text = "AGREGAR PRODUCTO";
-            this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.columnID,
+            this.columnPro,
+            this.columnFec,
+            this.columnTot,
+            this.columnEst});
+            this.dataGridView1.Location = new System.Drawing.Point(341, 62);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(447, 376);
+            this.dataGridView1.TabIndex = 8;
             // 
-            // btn_regresar
+            // columnID
             // 
-            this.btn_regresar.Image = ((System.Drawing.Image)(resources.GetObject("btn_regresar.Image")));
-            this.btn_regresar.Location = new System.Drawing.Point(9, 392);
-            this.btn_regresar.Name = "btn_regresar";
-            this.btn_regresar.Size = new System.Drawing.Size(51, 46);
-            this.btn_regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_regresar.TabIndex = 11;
-            this.btn_regresar.TabStop = false;
-            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
+            this.columnID.HeaderText = "ID";
+            this.columnID.MinimumWidth = 6;
+            this.columnID.Name = "columnID";
+            this.columnID.Width = 50;
             // 
-            // dgvDetalleRequerimiento
+            // columnPro
             // 
-            this.dgvDetalleRequerimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDetalleRequerimiento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Producto,
-            this.Cantidad,
-            this.Prioridad});
-            this.dgvDetalleRequerimiento.Location = new System.Drawing.Point(352, 62);
-            this.dgvDetalleRequerimiento.Name = "dgvDetalleRequerimiento";
-            this.dgvDetalleRequerimiento.RowHeadersWidth = 51;
-            this.dgvDetalleRequerimiento.RowTemplate.Height = 24;
-            this.dgvDetalleRequerimiento.Size = new System.Drawing.Size(436, 376);
-            this.dgvDetalleRequerimiento.TabIndex = 12;
-            this.dgvDetalleRequerimiento.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalleRequerimiento_CellClick);
+            this.columnPro.HeaderText = "Proveedor";
+            this.columnPro.MinimumWidth = 6;
+            this.columnPro.Name = "columnPro";
+            this.columnPro.Width = 125;
             // 
-            // ID
+            // columnFec
             // 
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 6;
-            this.ID.Name = "ID";
-            this.ID.Width = 125;
+            this.columnFec.HeaderText = "Fecha";
+            this.columnFec.MinimumWidth = 6;
+            this.columnFec.Name = "columnFec";
+            this.columnFec.Width = 80;
             // 
-            // Producto
+            // columnTot
             // 
-            this.Producto.HeaderText = "Producto";
-            this.Producto.MinimumWidth = 6;
-            this.Producto.Name = "Producto";
-            this.Producto.Width = 125;
+            this.columnTot.HeaderText = "Total";
+            this.columnTot.MinimumWidth = 6;
+            this.columnTot.Name = "columnTot";
+            this.columnTot.Width = 80;
             // 
-            // Cantidad
+            // columnEst
             // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.MinimumWidth = 6;
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.Width = 125;
+            this.columnEst.HeaderText = "Estado";
+            this.columnEst.MinimumWidth = 6;
+            this.columnEst.Name = "columnEst";
+            this.columnEst.Width = 80;
             // 
-            // Prioridad
+            // button2
             // 
-            this.Prioridad.HeaderText = "Prioridad";
-            this.Prioridad.MinimumWidth = 6;
-            this.Prioridad.Name = "Prioridad";
-            this.Prioridad.Width = 125;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.Location = new System.Drawing.Point(9, 342);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(158, 56);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Agregar";
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // btnMostrarDet
+            // button3
             // 
-            this.btnMostrarDet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnMostrarDet.Location = new System.Drawing.Point(102, 383);
-            this.btnMostrarDet.Name = "btnMostrarDet";
-            this.btnMostrarDet.Size = new System.Drawing.Size(158, 56);
-            this.btnMostrarDet.TabIndex = 13;
-            this.btnMostrarDet.Text = "MOSTRAR DETALLE";
-            this.btnMostrarDet.UseVisualStyleBackColor = false;
-            this.btnMostrarDet.Click += new System.EventHandler(this.btnMostrarDet_Click);
-            // 
-            // chbEstado
-            // 
-            this.chbEstado.AutoSize = true;
-            this.chbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbEstado.Location = new System.Drawing.Point(19, 281);
-            this.chbEstado.Name = "chbEstado";
-            this.chbEstado.Size = new System.Drawing.Size(83, 24);
-            this.chbEstado.TabIndex = 14;
-            this.chbEstado.Text = "Estado";
-            this.chbEstado.UseVisualStyleBackColor = true;
-            // 
-            // btnRegistrarReq
-            // 
-            this.btnRegistrarReq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnRegistrarReq.Location = new System.Drawing.Point(173, 320);
-            this.btnRegistrarReq.Name = "btnRegistrarReq";
-            this.btnRegistrarReq.Size = new System.Drawing.Size(158, 56);
-            this.btnRegistrarReq.TabIndex = 15;
-            this.btnRegistrarReq.Text = "REGISTRAR REQUERIMIENTO";
-            this.btnRegistrarReq.UseVisualStyleBackColor = false;
-            this.btnRegistrarReq.Click += new System.EventHandler(this.btnRegistrarReq_Click);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button3.Location = new System.Drawing.Point(177, 342);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(158, 56);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Deshabilitar";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // ModuloAbastecimiento
             // 
@@ -283,25 +263,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnRegistrarReq);
-            this.Controls.Add(this.chbEstado);
-            this.Controls.Add(this.btnMostrarDet);
-            this.Controls.Add(this.dgvDetalleRequerimiento);
-            this.Controls.Add(this.btn_regresar);
-            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ModuloAbastecimiento";
-            this.Load += new System.EventHandler(this.ModuloAbastecimiento_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_regresar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleRequerimiento)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -310,24 +284,23 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtProducto;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.Button btnBajoStock;
-        private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.PictureBox btn_regresar;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtCantidad;
-        private System.Windows.Forms.DataGridView dgvDetalleRequerimiento;
-        private System.Windows.Forms.ComboBox cmbPrioridad;
-        private System.Windows.Forms.Button btnMostrarDet;
-        private System.Windows.Forms.CheckBox chbEstado;
-        private System.Windows.Forms.Button btnRegistrarReq;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Producto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Prioridad;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtProveedor;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnPro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnFec;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnTot;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnEst;
+        private System.Windows.Forms.Button btnProveedor;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
