@@ -68,6 +68,7 @@
             this.dgvBajoStock.Size = new System.Drawing.Size(587, 374);
             this.dgvBajoStock.TabIndex = 1;
             this.dgvBajoStock.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBajoStock_CellClick);
+            this.dgvBajoStock.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBajoStock_CellContentClick);
             // 
             // label2
             // 

@@ -45,12 +45,14 @@
     <Compile Include="datConexion.cs" />
     <Compile Include="datDetalleRequerimiento.cs" />
     <Compile Include="datNotaEntrada.cs" />
+    <Compile Include="datOrdenCompra.cs" />
     <Compile Include="datProductos.cs" />
     <Compile Include="datProveedor.cs" />
     <Compile Include="datRequerimiento.cs" />
     <Compile Include="datRubroProv.cs" />
     <Compile Include="datUdMedida.cs" />
     <Compile Include="datUsuario.cs" />
+    <Compile Include="datDetalleOrdenCompra.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

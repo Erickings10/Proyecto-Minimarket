@@ -40,7 +40,7 @@ namespace SoftwareMinimarket
             {
                 if (pbs.ShowDialog() == DialogResult.OK) 
                 {
-                    txtProducto.Text = pbs.productoID;
+                    txtProducto.Text = pbs.productoID;   
                 }
             }
         }
@@ -121,6 +121,13 @@ namespace SoftwareMinimarket
         {
             FormDetalleRequerimiento formdr = new FormDetalleRequerimiento();
             formdr.Show();
+        }
+
+        private void btnMostrarOC_Click(object sender, EventArgs e)
+        {
+            FormOrdenCompra orden = new FormOrdenCompra();
+            orden.Show();
+            this.Close();
         }
     }
 }

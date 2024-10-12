@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="logCategoria.cs" />
+    <Compile Include="logDetalleOrdenCompra.cs" />
     <Compile Include="logDetalleRequerimiento.cs" />
     <Compile Include="logNotaEntrada.cs" />
+    <Compile Include="logOrdenCompra.cs" />
     <Compile Include="logProductos.cs" />
     <Compile Include="logProveedor.cs" />
     <Compile Include="logRequerimiento.cs" />
