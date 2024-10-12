@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFDC3FA-2A73-4EF5-959B-3208E76EDA3E}|CapaLogica\\CapaLogica.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectodiars\\software-minimarket\\capalogica\\logcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFDC3FA-2A73-4EF5-959B-3208E76EDA3E}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\logcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectodiars\\software-minimarket\\softwareminimarket\\moduloabastecimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloabastecimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\softwareminimarket\\formproductobajostock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formproductobajostock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\softwareminimarket\\formdetallerequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formdetallerequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\softwareminimarket\\formdetallerequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formdetallerequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "logCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\CapaLogica\\logCategoria.cs",
+              "RelativeDocumentMoniker": "CapaLogica\\logCategoria.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\CapaLogica\\logCategoria.cs",
+              "RelativeToolTip": "CapaLogica\\logCategoria.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:42:48.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDetalleRequerimiento.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\FormDetalleRequerimiento.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormDetalleRequerimiento.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\FormDetalleRequerimiento.cs",
+              "RelativeToolTip": "SoftwareMinimarket\\FormDetalleRequerimiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T06:16:59.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormProductoBajoStock.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\FormProductoBajoStock.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormProductoBajoStock.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\FormProductoBajoStock.cs",
+              "RelativeToolTip": "SoftwareMinimarket\\FormProductoBajoStock.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T06:12:17.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormDetalleRequerimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\FormDetalleRequerimiento.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormDetalleRequerimiento.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\FormDetalleRequerimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\FormDetalleRequerimiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T06:13:50.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModuloAbastecimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\ModuloAbastecimiento.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloAbastecimiento.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Software-Minimarket\\SoftwareMinimarket\\ModuloAbastecimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloAbastecimiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T21:00:54.443Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.config
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Form1.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAbastecimiento.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAlmacen.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloGerente.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloVentas.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Properties.Resources.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Form1.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAbastecimiento.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAlmacen.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloGerente.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloVentas.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Properties.Resources.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormProveedor.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRubro.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormAgregarProducto.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormProveedor.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRubro.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloEntradaProductos.resources
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteProductos.resources
+<<<<<<< HEAD
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteCategorias.resources
+=======
+>>>>>>> b98e037cd5384d23e6f0ce6a3b3e486bc03e6676
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Form1.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormAgregarProducto.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormProveedor.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteCategorias.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRubro.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAbastecimiento.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAlmacen.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloEntradaProductos.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloGerente.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloVentas.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Properties.Resources.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteProductos.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.config
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.config
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.pdb
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.dll
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.pdb
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaLogica.pdb
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\bin\Debug\CapaDatos.pdb
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Form1.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormAgregarProducto.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormProveedor.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteCategorias.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRubro.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAbastecimiento.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAlmacen.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloCategoria.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloEntradaProductos.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloGerente.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloMedidaProducto.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloVentas.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Properties.Resources.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteProductos.resources
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
+D:\DIARS\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAgregarProducto.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloProveedor.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloRubro.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloCategoriaProducto.resources
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloMedidaProducto.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Form1.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAgregarProducto.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloProveedor.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteCategorias.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloRubro.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAbastecimiento.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloCategoriaProducto.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloEntradaProductos.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloGerente.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloMedidaProducto.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloVentas.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Properties.Resources.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteProductos.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormProductoBajoStock.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormDetalleRequerimiento.resources

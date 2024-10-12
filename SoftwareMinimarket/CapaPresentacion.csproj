@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41E9A503-8364-4928-BA30-0A453384FC10}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SoftwareMinimarket</RootNamespace>
+    <AssemblyName>SoftwareMinimarket</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetalleRequerimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetalleRequerimiento.Designer.cs">
+      <DependentUpon>FormDetalleRequerimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductoBajoStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductoBajoStock.Designer.cs">
+      <DependentUpon>FormProductoBajoStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAgregarProducto.Designer.cs">
+      <DependentUpon>ModuloAgregarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloProveedor.Designer.cs">
+      <DependentUpon>ModuloProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteCategorias.Designer.cs">
+      <DependentUpon>FormReporteCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloRubro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloRubro.Designer.cs">
+      <DependentUpon>ModuloRubro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAbastecimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAbastecimiento.Designer.cs">
+      <DependentUpon>ModuloAbastecimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloCategoriaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloCategoriaProducto.Designer.cs">
+      <DependentUpon>ModuloCategoriaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloEntradaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloEntradaProductos.Designer.cs">
+      <DependentUpon>ModuloEntradaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloGerente.Designer.cs">
+      <DependentUpon>ModuloGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloMedidaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloMedidaProducto.Designer.cs">
+      <DependentUpon>ModuloMedidaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloVentas.Designer.cs">
+      <DependentUpon>ModuloVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormReporteProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteProductos.Designer.cs">
+      <DependentUpon>FormReporteProductos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetalleRequerimiento.resx">
+      <DependentUpon>FormDetalleRequerimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductoBajoStock.resx">
+      <DependentUpon>FormProductoBajoStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAgregarProducto.resx">
+      <DependentUpon>ModuloAgregarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloProveedor.resx">
+      <DependentUpon>ModuloProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteCategorias.resx">
+      <DependentUpon>FormReporteCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloRubro.resx">
+      <DependentUpon>ModuloRubro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAbastecimiento.resx">
+      <DependentUpon>ModuloAbastecimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloCategoriaProducto.resx">
+      <DependentUpon>ModuloCategoriaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloEntradaProductos.resx">
+      <DependentUpon>ModuloEntradaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloGerente.resx">
+      <DependentUpon>ModuloGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloMedidaProducto.resx">
+      <DependentUpon>ModuloMedidaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloVentas.resx">
+      <DependentUpon>ModuloVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormReporteProductos.resx">
+      <DependentUpon>FormReporteProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{f3fb39c9-d955-4168-8a0b-5d99d2fa235f}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{2efdc3fa-2a73-4ef5-959b-3208e76eda3e}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

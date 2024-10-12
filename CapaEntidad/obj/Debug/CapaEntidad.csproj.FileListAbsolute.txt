@@ -1,0 +1,30 @@
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\94881\OneDrive\Escritorio\Nueva carpeta\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\DIARS\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+D:\DIARS\SoftwareMinimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+D:\DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+D:\DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+D:\DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+D:\DIARS\SoftwareMinimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
