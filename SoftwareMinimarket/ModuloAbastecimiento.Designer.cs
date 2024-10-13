@@ -51,6 +51,7 @@
             this.btnMostrarDet = new System.Windows.Forms.Button();
             this.chbEstado = new System.Windows.Forms.CheckBox();
             this.btnRegistrarReq = new System.Windows.Forms.Button();
+            this.btnMostrarOC = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_regresar)).BeginInit();
@@ -181,7 +182,7 @@
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnAgregar.Location = new System.Drawing.Point(9, 321);
+            this.btnAgregar.Location = new System.Drawing.Point(9, 311);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(158, 56);
             this.btnAgregar.TabIndex = 9;
@@ -247,9 +248,9 @@
             // btnMostrarDet
             // 
             this.btnMostrarDet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnMostrarDet.Location = new System.Drawing.Point(102, 383);
+            this.btnMostrarDet.Location = new System.Drawing.Point(66, 382);
             this.btnMostrarDet.Name = "btnMostrarDet";
-            this.btnMostrarDet.Size = new System.Drawing.Size(158, 56);
+            this.btnMostrarDet.Size = new System.Drawing.Size(126, 56);
             this.btnMostrarDet.TabIndex = 13;
             this.btnMostrarDet.Text = "MOSTRAR DETALLE";
             this.btnMostrarDet.UseVisualStyleBackColor = false;
@@ -269,7 +270,7 @@
             // btnRegistrarReq
             // 
             this.btnRegistrarReq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnRegistrarReq.Location = new System.Drawing.Point(173, 320);
+            this.btnRegistrarReq.Location = new System.Drawing.Point(177, 311);
             this.btnRegistrarReq.Name = "btnRegistrarReq";
             this.btnRegistrarReq.Size = new System.Drawing.Size(158, 56);
             this.btnRegistrarReq.TabIndex = 15;
@@ -277,12 +278,24 @@
             this.btnRegistrarReq.UseVisualStyleBackColor = false;
             this.btnRegistrarReq.Click += new System.EventHandler(this.btnRegistrarReq_Click);
             // 
+            // btnMostrarOC
+            // 
+            this.btnMostrarOC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnMostrarOC.Location = new System.Drawing.Point(209, 382);
+            this.btnMostrarOC.Name = "btnMostrarOC";
+            this.btnMostrarOC.Size = new System.Drawing.Size(126, 56);
+            this.btnMostrarOC.TabIndex = 16;
+            this.btnMostrarOC.Text = "MOSTRAR ORDEN COMPRA";
+            this.btnMostrarOC.UseVisualStyleBackColor = false;
+            this.btnMostrarOC.Click += new System.EventHandler(this.btnMostrarOC_Click);
+            // 
             // ModuloAbastecimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMostrarOC);
             this.Controls.Add(this.btnRegistrarReq);
             this.Controls.Add(this.chbEstado);
             this.Controls.Add(this.btnMostrarDet);
@@ -329,5 +342,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Producto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Prioridad;
+        private System.Windows.Forms.Button btnMostrarOC;
     }
 }

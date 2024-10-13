@@ -28,3 +28,9 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-M
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Software-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\lenovo\Desktop\Proyecto Diars\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\lenovo\Desktop\Proyecto Diars\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\lenovo\Desktop\Proyecto Diars\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Proyecto Diars\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Proyecto Diars\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\lenovo\Desktop\Proyecto Diars\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb

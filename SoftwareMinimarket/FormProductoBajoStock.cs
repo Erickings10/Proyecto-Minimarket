@@ -46,5 +46,10 @@ namespace SoftwareMinimarket
             DialogResult = DialogResult.OK;
             Close();
         }
+
+        private void dgvBajoStock_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

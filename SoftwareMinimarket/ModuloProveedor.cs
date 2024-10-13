@@ -143,6 +143,8 @@ namespace SoftwareMinimarket
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            FormReporteProveedor rpv = new FormReporteProveedor();
+            rpv.Show();
             this.Close();
         }
     }
