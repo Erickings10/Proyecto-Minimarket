@@ -145,6 +145,45 @@ namespace CapaDatos
 
             return Prod;
         }
+        ////////////////////BUSCAR PRODUCTO POR NOMBRE
+        public entProductos BuscarProductosPorDescripcion(string descripcion)
+        {
+            entProductos producto = new entProductos();
+            SqlCommand cmd = null;
+            try
+            {
+                SqlConnection cn = datConexion.Instancia.Conectar(); // conexión a la base de datos
+                cmd = new SqlCommand("spBuscarProductoPorDescripcion", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Descripcion", descripcion);
+
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+
+                    producto.ProductoID = Convert.ToInt32(dr["ProductoID"]);
+                    producto.CategoriaproductoID = Convert.ToInt32(dr["CategoriaID"]);
+                    producto.descripcion = Convert.ToString(dr["Descripcion"]);
+                    producto.unidadMedidaID = Convert.ToInt32(dr["UnidadmedidaID"]);
+                    producto.precioVenta = Convert.ToDecimal(dr["PrecioVenta"]);
+                    producto.cantidad = Convert.ToInt32(dr["Cantidad"]);
+                    producto.estado = Convert.ToBoolean(dr["Estado"]);
+
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                cmd?.Connection.Close();
+            }
+
+            return producto;
+        }
         ////////////////////MODIFICAR PRODUCTO
         public bool EditarProducto(entProductos producto)
         {

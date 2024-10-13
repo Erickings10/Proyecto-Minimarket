@@ -1,66 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\lenovo\\desktop\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\formreporteproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formreporteproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\lenovo\\desktop\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\formordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\formreporterequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formreporterequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\moduloproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\moduloproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\formreporteproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formreporteproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\formreporterequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formreporterequerimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\moduloabastecimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectodiars\\proyecto-minimarket-sinventas\\softwareminimarket\\moduloabastecimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloabastecimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFDC3FA-2A73-4EF5-959B-3208E76EDA3E}|CapaLogica\\CapaLogica.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\capalogica\\logordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFDC3FA-2A73-4EF5-959B-3208E76EDA3E}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\logordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectodiars\\proyecto-minimarket-sinventas\\softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\softwareminimarket\\formordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectodiars\\proyecto-minimarket-sinventas\\softwareminimarket\\modulogerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\modulogerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FB39C9-D955-4168-8A0B-5D99D2FA235F}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\capaentidad\\entordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB39C9-D955-4168-8A0B-5D99D2FA235F}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\entordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\softwareminimarket\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FB39C9-D955-4168-8A0B-5D99D2FA235F}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\capaentidad\\entdetalleordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB39C9-D955-4168-8A0B-5D99D2FA235F}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\entdetalleordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\softwareminimarket\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\capadatos\\datordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EFDC3FA-2A73-4EF5-959B-3208E76EDA3E}|CapaLogica\\CapaLogica.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\capalogica\\logdetalleordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFDC3FA-2A73-4EF5-959B-3208E76EDA3E}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\logdetalleordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\capadatos\\datdetalleordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datdetalleordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\softwareminimarket\\modulogerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\modulogerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,202 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "entDetalleOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaEntidad\\entDetalleOrdenCompra.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\entDetalleOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaEntidad\\entDetalleOrdenCompra.cs",
-              "RelativeToolTip": "CapaEntidad\\entDetalleOrdenCompra.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ModuloAbastecimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloAbastecimiento.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloAbastecimiento.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloAbastecimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloAbastecimiento.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:22:54.325Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "datDetalleOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaDatos\\datDetalleOrdenCompra.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\datDetalleOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaDatos\\datDetalleOrdenCompra.cs",
-              "RelativeToolTip": "CapaDatos\\datDetalleOrdenCompra.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwDsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:21:54.124Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "logDetalleOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaLogica\\logDetalleOrdenCompra.cs",
-              "RelativeDocumentMoniker": "CapaLogica\\logDetalleOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaLogica\\logDetalleOrdenCompra.cs",
-              "RelativeToolTip": "CapaLogica\\logDetalleOrdenCompra.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:23:31.162Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "datOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaDatos\\datOrdenCompra.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\datOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaDatos\\datOrdenCompra.cs",
-              "RelativeToolTip": "CapaDatos\\datOrdenCompra.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:24:59.376Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "entOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaEntidad\\entOrdenCompra.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\entOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaEntidad\\entOrdenCompra.cs",
-              "RelativeToolTip": "CapaEntidad\\entOrdenCompra.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:24:41.746Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "logOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaLogica\\logOrdenCompra.cs",
-              "RelativeDocumentMoniker": "CapaLogica\\logOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\CapaLogica\\logOrdenCompra.cs",
-              "RelativeToolTip": "CapaLogica\\logOrdenCompra.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:25:28.928Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormOrdenCompra.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormOrdenCompra.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormOrdenCompra.cs",
-              "RelativeToolTip": "SoftwareMinimarket\\FormOrdenCompra.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAkwCEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:27:52.829Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T16:04:32.647Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormOrdenCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormOrdenCompra.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormOrdenCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SoftwareMinimarket\\FormOrdenCompra.cs [Dise\u00F1o]",
+              "Title": "ModuloVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloVentas.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloVentas.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:25:50.594Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormReporteProveedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteProveedor.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormReporteProveedor.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteProveedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SoftwareMinimarket\\FormReporteProveedor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:02:10.286Z",
+              "WhenOpened": "2024-10-13T16:04:28.56Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ModuloProveedor.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloProveedor.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloProveedor.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloProveedor.cs*",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloProveedor.cs*",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAowJIAAAAXAAAA",
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\FormLogin.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\FormLogin.cs",
+              "RelativeToolTip": "SoftwareMinimarket\\FormLogin.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAADgv4cAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:54:57.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ModuloProveedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloProveedor.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloProveedor.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloProveedor.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloProveedor.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:54:54.483Z"
+              "WhenOpened": "2024-10-13T16:01:58.145Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormReporteRequerimiento.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteRequerimiento.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormReporteRequerimiento.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteRequerimiento.cs*",
-              "RelativeToolTip": "SoftwareMinimarket\\FormReporteRequerimiento.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ModuloGerente.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloGerente.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloGerente.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloGerente.cs",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloGerente.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAD4vy0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:52:52.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormReporteRequerimiento.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteRequerimiento.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormReporteRequerimiento.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteRequerimiento.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "SoftwareMinimarket\\FormReporteRequerimiento.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:31:48.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormReporteProveedor.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteProveedor.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormReporteProveedor.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteProveedor.cs",
-              "RelativeToolTip": "SoftwareMinimarket\\FormReporteProveedor.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAowC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:25:51.244Z",
+              "WhenOpened": "2024-10-13T16:01:53.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ModuloAbastecimiento.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloAbastecimiento.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloAbastecimiento.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Proyecto Diars\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloAbastecimiento.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloAbastecimiento.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "ModuloGerente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloGerente.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloGerente.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\ModuloGerente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloGerente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:32:46.859Z"
+              "WhenOpened": "2024-10-13T16:01:45.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\FormLogin.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoDIARS\\Proyecto-Minimarket-SinVentas\\SoftwareMinimarket\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:50:14.332Z"
             }
           ]
         }

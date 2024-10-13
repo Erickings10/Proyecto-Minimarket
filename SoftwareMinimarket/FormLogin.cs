@@ -13,10 +13,10 @@ using System.Runtime.InteropServices;
 
 namespace SoftwareMinimarket
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
         public static entUsuario usuarioValido = null;
-        public Form1()
+        public FormLogin()
         {            
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;

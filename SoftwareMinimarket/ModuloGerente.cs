@@ -42,7 +42,8 @@ namespace SoftwareMinimarket
 
         private void button1_Click(object sender, EventArgs e)
         {
-            logUsuario.Instancia.ActualizarInicioSesion(Form1.usuarioValido.id, false);
+            logUsuario.Instancia.ActualizarInicioSesion(FormLogin.usuarioValido.id, false);
+            Application.Exit();
         }
     }
 }

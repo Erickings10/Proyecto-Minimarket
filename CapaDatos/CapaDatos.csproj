@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="datCategoria.cs" />
+    <Compile Include="datCliente.cs" />
     <Compile Include="datConexion.cs" />
     <Compile Include="datDetalleRequerimiento.cs" />
+    <Compile Include="datMetodoPago.cs" />
     <Compile Include="datNotaEntrada.cs" />
     <Compile Include="datOrdenCompra.cs" />
     <Compile Include="datProductos.cs" />
@@ -53,6 +55,7 @@
     <Compile Include="datUdMedida.cs" />
     <Compile Include="datUsuario.cs" />
     <Compile Include="datDetalleOrdenCompra.cs" />
+    <Compile Include="datVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

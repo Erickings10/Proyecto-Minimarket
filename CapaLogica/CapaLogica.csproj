@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="logCategoria.cs" />
+    <Compile Include="logCliente.cs" />
     <Compile Include="logDetalleOrdenCompra.cs" />
     <Compile Include="logDetalleRequerimiento.cs" />
+    <Compile Include="logMetodoPago.cs" />
     <Compile Include="logNotaEntrada.cs" />
     <Compile Include="logOrdenCompra.cs" />
     <Compile Include="logProductos.cs" />
@@ -52,6 +54,7 @@
     <Compile Include="logRubroProv.cs" />
     <Compile Include="logUdMedida.cs" />
     <Compile Include="logUsuario.cs" />
+    <Compile Include="logVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

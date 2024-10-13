@@ -139,7 +139,7 @@ namespace SoftwareMinimarket
                     txtProducto.Text = desProducto.ProductoID.ToString();
                     txtDescripcion.Text = desProducto.descripcion;
                     txtTienda.Text = "1";
-                    txtUsuario.Text = Form1.usuarioValido.id.ToString();
+                    txtUsuario.Text = FormLogin.usuarioValido.id.ToString();
                 }
 
             }
