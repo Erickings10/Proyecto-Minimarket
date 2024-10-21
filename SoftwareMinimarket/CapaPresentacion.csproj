@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomControls.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="FormAgregarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,12 +78,6 @@
     </Compile>
     <Compile Include="FormReporteProveedor.Designer.cs">
       <DependentUpon>FormReporteProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormReporteRequerimiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormReporteRequerimiento.Designer.cs">
-      <DependentUpon>FormReporteRequerimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloAgregarProducto.cs">
       <SubType>Form</SubType>
@@ -170,9 +167,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormReporteProveedor.resx">
       <DependentUpon>FormReporteProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormReporteRequerimiento.resx">
-      <DependentUpon>FormReporteRequerimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloAgregarProducto.resx">
       <DependentUpon>ModuloAgregarProducto.cs</DependentUpon>

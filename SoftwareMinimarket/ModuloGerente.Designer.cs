@@ -29,47 +29,86 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloGerente));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panelContainer = new System.Windows.Forms.Panel();
+            this.btnCerrarSesion = new SoftwareMinimarket.CustomControls();
+            this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.btn_abastecimiento = new System.Windows.Forms.PictureBox();
             this.btn_almacen = new System.Windows.Forms.PictureBox();
             this.btn_ventas = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.panelContainer.SuspendLayout();
+            this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_abastecimiento)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_almacen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_ventas)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelContainer
             // 
-            this.panel1.BackColor = System.Drawing.Color.MistyRose;
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.btn_abastecimiento);
-            this.panel1.Controls.Add(this.btn_almacen);
-            this.panel1.Controls.Add(this.btn_ventas);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1032, 550);
-            this.panel1.TabIndex = 0;
+            this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.Controls.Add(this.btnCerrarSesion);
+            this.panelContainer.Controls.Add(this.panelTitleBar);
+            this.panelContainer.Controls.Add(this.label4);
+            this.panelContainer.Controls.Add(this.label3);
+            this.panelContainer.Controls.Add(this.label2);
+            this.panelContainer.Controls.Add(this.btn_abastecimiento);
+            this.panelContainer.Controls.Add(this.btn_almacen);
+            this.panelContainer.Controls.Add(this.btn_ventas);
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(0, 0);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(1032, 550);
+            this.panelContainer.TabIndex = 0;
+            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
-            // button1
+            // btnCerrarSesion
             // 
-            this.button1.Location = new System.Drawing.Point(775, 479);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(193, 49);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "CERRAR SESION";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCerrarSesion.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrarSesion.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnCerrarSesion.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.btnCerrarSesion.BorderRadius = 20;
+            this.btnCerrarSesion.BorderSize = 2;
+            this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
+            this.btnCerrarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.Black;
+            this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
+            this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(830, 479);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(180, 50);
+            this.btnCerrarSesion.TabIndex = 9;
+            this.btnCerrarSesion.Text = "CERRAR SESION";
+            this.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCerrarSesion.TextColor = System.Drawing.Color.Black;
+            this.btnCerrarSesion.UseVisualStyleBackColor = false;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            // 
+            // panelTitleBar
+            // 
+            this.panelTitleBar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panelTitleBar.Controls.Add(this.label1);
+            this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitleBar.Location = new System.Drawing.Point(0, 0);
+            this.panelTitleBar.Name = "panelTitleBar";
+            this.panelTitleBar.Size = new System.Drawing.Size(1032, 50);
+            this.panelTitleBar.TabIndex = 8;
+            this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft New Tai Lue", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(358, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(332, 40);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "SELECCIONE UN AREA";
             // 
             // label4
             // 
@@ -100,16 +139,6 @@
             this.label2.Size = new System.Drawing.Size(129, 29);
             this.label2.TabIndex = 4;
             this.label2.Text = "ALMACEN";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft JhengHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(388, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 29);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "SELECCIONE UN AREA";
             // 
             // btn_abastecimiento
             // 
@@ -152,12 +181,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 550);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.panelContainer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ModuloGerente";
             this.Text = "ModuloGerente";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Activated += new System.EventHandler(this.ModuloGerente_Activated);
+            this.ResizeEnd += new System.EventHandler(this.ModuloGerente_ResizeEnd);
+            this.SizeChanged += new System.EventHandler(this.ModuloGerente_SizeChanged);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.ModuloGerente_Paint);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ModuloGerente_MouseDown);
+            this.panelContainer.ResumeLayout(false);
+            this.panelContainer.PerformLayout();
+            this.panelTitleBar.ResumeLayout(false);
+            this.panelTitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_abastecimiento)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_almacen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_ventas)).EndInit();
@@ -167,7 +203,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelContainer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox btn_abastecimiento;
         private System.Windows.Forms.PictureBox btn_almacen;
@@ -175,6 +211,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelTitleBar;
+        private CustomControls btnCerrarSesion;
     }
 }
