@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloGerente));
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.btnDashboard = new SoftwareMinimarket.CustomControls();
             this.btnCerrarSesion = new SoftwareMinimarket.CustomControls();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,6 +50,7 @@
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.Controls.Add(this.btnDashboard);
             this.panelContainer.Controls.Add(this.btnCerrarSesion);
             this.panelContainer.Controls.Add(this.panelTitleBar);
             this.panelContainer.Controls.Add(this.label4);
@@ -63,6 +65,30 @@
             this.panelContainer.Size = new System.Drawing.Size(1032, 550);
             this.panelContainer.TabIndex = 0;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.BorderColor = System.Drawing.Color.DarkOrange;
+            this.btnDashboard.BorderRadius = 35;
+            this.btnDashboard.BorderSize = 2;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.Black;
+            this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Location = new System.Drawing.Point(25, 448);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(225, 81);
+            this.btnDashboard.TabIndex = 10;
+            this.btnDashboard.Text = "DASHBOARD";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDashboard.TextColor = System.Drawing.Color.Black;
+            this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // btnCerrarSesion
             // 
@@ -213,5 +239,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelTitleBar;
         private CustomControls btnCerrarSesion;
+        private CustomControls btnDashboard;
     }
 }

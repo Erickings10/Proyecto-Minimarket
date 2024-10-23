@@ -1,5 +1,4 @@
-﻿using CapaLogica;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,20 +12,28 @@ using System.Windows.Forms;
 
 namespace SoftwareMinimarket
 {
-    public partial class ModuloGerente : Form
+    public partial class FormDashboard : Form
     {
         //Fields
         private int borderRadius = 20;
         private int borderSize = 2;
         private Color borderColor = Color.RoyalBlue;
-        public ModuloGerente()
+
+        private Dashboard model;
+        public FormDashboard()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
             this.panelTitleBar.BackColor = borderColor;
             this.BackColor = borderColor;
+
+            dtpStartDate.Value = DateTime.Today.AddDays(-7);
+            dtpEndDate.Value = DateTime.Now;
+            btnLast7days.Select();
+
+            model = new Dashboard();
+            LoadData();
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -41,7 +48,7 @@ namespace SoftwareMinimarket
                 return cp;
             }
         }
-        private void ModuloGerente_MouseDown(object sender, MouseEventArgs e)
+        private void Dashboard_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
@@ -63,7 +70,6 @@ namespace SoftwareMinimarket
             path.CloseFigure();
             return path;
         }
-
         private void FormRegionAndBorder(Form form, float radius, Graphics graph, Color borderColor, float borderSize)
         {
             if (this.WindowState != FormWindowState.Minimized)
@@ -87,7 +93,6 @@ namespace SoftwareMinimarket
                 }
             }
         }
-
         private void ControlRegionAndBorder(Control control, float radius, Graphics graph, Color borderColor)
         {
             using (GraphicsPath roundPath = GetRoundedPath(control.ClientRectangle, radius))
@@ -98,7 +103,6 @@ namespace SoftwareMinimarket
                 graph.DrawPath(penBorder, roundPath);
             }
         }
-
         private void DrawPath(Rectangle rect, Graphics graph, Color color)
         {
             using (GraphicsPath roundPath = GetRoundedPath(rect, borderRadius))
@@ -150,7 +154,7 @@ namespace SoftwareMinimarket
             ControlRegionAndBorder(panelContainer, borderRadius - (borderSize / 2), e.Graphics, borderColor);
         }
 
-        private void ModuloGerente_Paint(object sender, PaintEventArgs e)
+        private void Dashboard_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
             Rectangle rectForm = this.ClientRectangle;
@@ -174,53 +178,111 @@ namespace SoftwareMinimarket
 
             FormRegionAndBorder(this, borderRadius, e.Graphics, borderColor, borderSize);
         }
-        private void ModuloGerente_ResizeEnd(object sender, EventArgs e)
+        private void Dashboard_ResizeEnd(object sender, EventArgs e)
         {
             this.Invalidate();
         }
-
-        private void ModuloGerente_SizeChanged(object sender, EventArgs e)
+        private void Dashboard_SizeChanged(object sender, EventArgs e)
         {
             this.Invalidate();
         }
-
-        private void ModuloGerente_Activated(object sender, EventArgs e)
+        private void Dashboard_Activated(object sender, EventArgs e)
         {
             this.Invalidate();
         }
-        //----------------------------------------------------------------------------------------------
-        private void btn_almacen_Click(object sender, EventArgs e)
+        //-------------------------------------------------------------------------------------------------
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
-            ModuloEntradaProductos mep = new ModuloEntradaProductos();
-            mep.Show();
-            this.Hide();
+            ModuloGerente mg = new ModuloGerente();
+            mg.Show();
+            this.Close();
         }
 
-        private void btn_ventas_Click(object sender, EventArgs e)
+        private void btnMinimizar_Click(object sender, EventArgs e)
         {
-            ModuloVentas mv = new ModuloVentas();
-            mv.Show();
-            this.Hide();
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void btn_abastecimiento_Click(object sender, EventArgs e)
+        //-----------------------------------------------------------------------------------------------
+        //Metodo privado
+        private void LoadData() 
         {
-            ModuloAbastecimiento ma = new ModuloAbastecimiento();
-            ma.Show();
-            this.Hide();
+            var refreshData = model.LoadData(dtpStartDate.Value, dtpEndDate.Value);
+            if (refreshData == true) 
+            {
+                lblNumOrders.Text = model.NumOrders.ToString();
+                lblTotalRevenue.Text = "$" + model.TotalRevenue.ToString();
+                lblTotalProfit.Text = "$" + model.TotalProfit.ToString();
+
+                lblNumCustomers.Text = model.NumCustomers.ToString();
+                lblNumProducts.Text = model.NumProducts.ToString();
+
+                chartGrossRevenue.DataSource = model.GrossRevenueList;
+                chartGrossRevenue.Series[0].XValueMember = "Date";
+                chartGrossRevenue.Series[0].YValueMembers = "TotalAmount";
+                chartGrossRevenue.DataBind();
+
+                chartTopProducts.DataSource = model.TopProductsList;
+                chartTopProducts.Series[0].XValueMember = "Key";
+                chartTopProducts.Series[0].YValueMembers = "Value";
+                chartTopProducts.DataBind();
+
+                dgvUnderstock.DataSource = model.UnderstockList;
+                dgvUnderstock.Columns[0].HeaderText = "Item";
+                dgvUnderstock.Columns[1].HeaderText = "Units";
+                Console.WriteLine("Loaded view :)");
+            }
+            else Console.WriteLine("View not loaded, same query");
+        }
+        private void DisableCustomDates()
+        {
+            dtpStartDate.Enabled = false;
+            dtpEndDate.Enabled = false;
+            btnOkCustomDate.Visible = false;
+        }
+        //Metodos
+        private void btnToday_Click(object sender, EventArgs e)
+        {
+            dtpStartDate.Value = DateTime.Today;
+            dtpEndDate.Value = DateTime.Now;
+            LoadData();
+            DisableCustomDates();
         }
 
-        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        private void btnLast7days_Click(object sender, EventArgs e)
         {
-            logUsuario.Instancia.ActualizarInicioSesion(FormLogin.usuarioValido.id, false);
-            Application.Exit();
+            dtpStartDate.Value = DateTime.Today.AddDays(-7);
+            dtpEndDate.Value = DateTime.Now;
+            LoadData();
+            DisableCustomDates();
         }
 
-        private void btnDashboard_Click(object sender, EventArgs e)
+        private void btnLast30days_Click(object sender, EventArgs e)
         {
-            FormDashboard db = new FormDashboard();
-            db.Show();
-            this.Hide();
+            dtpStartDate.Value = DateTime.Today.AddDays(-30);
+            dtpEndDate.Value = DateTime.Now;
+            LoadData();
+            DisableCustomDates();
+        }
+
+        private void btnThisMonth_Click(object sender, EventArgs e)
+        {
+            dtpStartDate.Value = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1);
+            dtpEndDate.Value = DateTime.Now;
+            LoadData();
+            DisableCustomDates();
+        }
+
+        private void btnCustomDate_Click(object sender, EventArgs e)
+        {
+            dtpStartDate.Enabled = true;
+            dtpEndDate.Enabled = true;
+            btnOkCustomDate.Visible = true;
+        }
+
+        private void btnOkCustomDate_Click(object sender, EventArgs e)
+        {
+            LoadData();
         }
     }
 }

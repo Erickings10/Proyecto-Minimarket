@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,13 @@
   <ItemGroup>
     <Compile Include="CustomControls.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dashboard.cs" />
+    <Compile Include="FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAgregarCliente.cs">
       <SubType>Form</SubType>
@@ -153,6 +161,9 @@
     <Compile Include="FormReporteProductos.Designer.cs">
       <DependentUpon>FormReporteProductos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAgregarCliente.resx">
       <DependentUpon>FormAgregarCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,6 +238,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
       <Project>{f3fb39c9-d955-4168-8a0b-5d99d2fa235f}</Project>
       <Name>CapaEntidad</Name>
