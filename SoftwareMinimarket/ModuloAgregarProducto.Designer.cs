@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloAgregarProducto));
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.btnDeshabilitar = new SoftwareMinimarket.CustomControls();
+            this.btnModificar = new SoftwareMinimarket.CustomControls();
             this.btnAgregar = new SoftwareMinimarket.CustomControls();
             this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -51,8 +53,6 @@
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnModificar = new SoftwareMinimarket.CustomControls();
-            this.btnDeshabilitar = new SoftwareMinimarket.CustomControls();
             this.panelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -78,13 +78,57 @@
             this.panelContainer.TabIndex = 0;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
+            // btnDeshabilitar
+            // 
+            this.btnDeshabilitar.BackColor = System.Drawing.Color.Transparent;
+            this.btnDeshabilitar.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnDeshabilitar.BorderColor = System.Drawing.Color.OrangeRed;
+            this.btnDeshabilitar.BorderRadius = 0;
+            this.btnDeshabilitar.BorderSize = 2;
+            this.btnDeshabilitar.FlatAppearance.BorderSize = 0;
+            this.btnDeshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.btnDeshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeshabilitar.ForeColor = System.Drawing.Color.Black;
+            this.btnDeshabilitar.Image = ((System.Drawing.Image)(resources.GetObject("btnDeshabilitar.Image")));
+            this.btnDeshabilitar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeshabilitar.Location = new System.Drawing.Point(87, 470);
+            this.btnDeshabilitar.Name = "btnDeshabilitar";
+            this.btnDeshabilitar.Size = new System.Drawing.Size(158, 56);
+            this.btnDeshabilitar.TabIndex = 39;
+            this.btnDeshabilitar.Text = "DESHABILITAR";
+            this.btnDeshabilitar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDeshabilitar.TextColor = System.Drawing.Color.Black;
+            this.btnDeshabilitar.UseVisualStyleBackColor = false;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.BackColor = System.Drawing.Color.Transparent;
+            this.btnModificar.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnModificar.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnModificar.BorderRadius = 0;
+            this.btnModificar.BorderSize = 2;
+            this.btnModificar.FlatAppearance.BorderSize = 0;
+            this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificar.ForeColor = System.Drawing.Color.Black;
+            this.btnModificar.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.Image")));
+            this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnModificar.Location = new System.Drawing.Point(174, 397);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(158, 56);
+            this.btnModificar.TabIndex = 38;
+            this.btnModificar.Text = "MODIFICAR";
+            this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnModificar.TextColor = System.Drawing.Color.Black;
+            this.btnModificar.UseVisualStyleBackColor = false;
+            // 
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.Transparent;
             this.btnAgregar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregar.BorderColor = System.Drawing.Color.Lime;
             this.btnAgregar.BorderRadius = 0;
-            this.btnAgregar.BorderSize = 3;
+            this.btnAgregar.BorderSize = 2;
             this.btnAgregar.FlatAppearance.BorderSize = 0;
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -226,6 +270,7 @@
             // 
             // cboUMedida
             // 
+            this.cboUMedida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboUMedida.FormattingEnabled = true;
             this.cboUMedida.Location = new System.Drawing.Point(132, 123);
             this.cboUMedida.Name = "cboUMedida";
@@ -303,50 +348,6 @@
             this.label10.Size = new System.Drawing.Size(199, 39);
             this.label10.TabIndex = 29;
             this.label10.Text = "PRODUCTOS";
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.BackColor = System.Drawing.Color.Transparent;
-            this.btnModificar.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnModificar.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnModificar.BorderRadius = 0;
-            this.btnModificar.BorderSize = 3;
-            this.btnModificar.FlatAppearance.BorderSize = 0;
-            this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificar.ForeColor = System.Drawing.Color.Black;
-            this.btnModificar.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.Image")));
-            this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificar.Location = new System.Drawing.Point(174, 397);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(158, 56);
-            this.btnModificar.TabIndex = 38;
-            this.btnModificar.Text = "MODIFICAR";
-            this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnModificar.TextColor = System.Drawing.Color.Black;
-            this.btnModificar.UseVisualStyleBackColor = false;
-            // 
-            // btnDeshabilitar
-            // 
-            this.btnDeshabilitar.BackColor = System.Drawing.Color.Transparent;
-            this.btnDeshabilitar.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnDeshabilitar.BorderColor = System.Drawing.Color.OrangeRed;
-            this.btnDeshabilitar.BorderRadius = 0;
-            this.btnDeshabilitar.BorderSize = 3;
-            this.btnDeshabilitar.FlatAppearance.BorderSize = 0;
-            this.btnDeshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.btnDeshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeshabilitar.ForeColor = System.Drawing.Color.Black;
-            this.btnDeshabilitar.Image = ((System.Drawing.Image)(resources.GetObject("btnDeshabilitar.Image")));
-            this.btnDeshabilitar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeshabilitar.Location = new System.Drawing.Point(87, 470);
-            this.btnDeshabilitar.Name = "btnDeshabilitar";
-            this.btnDeshabilitar.Size = new System.Drawing.Size(158, 56);
-            this.btnDeshabilitar.TabIndex = 39;
-            this.btnDeshabilitar.Text = "DESHABILITAR";
-            this.btnDeshabilitar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDeshabilitar.TextColor = System.Drawing.Color.Black;
-            this.btnDeshabilitar.UseVisualStyleBackColor = false;
             // 
             // ModuloAgregarProducto
             // 

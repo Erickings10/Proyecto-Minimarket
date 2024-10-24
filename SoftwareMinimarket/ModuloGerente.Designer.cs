@@ -71,7 +71,7 @@
             this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
             this.btnDashboard.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnDashboard.BorderColor = System.Drawing.Color.DarkOrange;
-            this.btnDashboard.BorderRadius = 35;
+            this.btnDashboard.BorderRadius = 15;
             this.btnDashboard.BorderSize = 2;
             this.btnDashboard.FlatAppearance.BorderSize = 0;
             this.btnDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold;
@@ -95,7 +95,7 @@
             this.btnCerrarSesion.BackColor = System.Drawing.Color.Transparent;
             this.btnCerrarSesion.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnCerrarSesion.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.btnCerrarSesion.BorderRadius = 20;
+            this.btnCerrarSesion.BorderRadius = 15;
             this.btnCerrarSesion.BorderSize = 2;
             this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
             this.btnCerrarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;

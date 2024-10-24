@@ -91,7 +91,7 @@
             this.btnConfirmarOrden.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnConfirmarOrden.BorderColor = System.Drawing.Color.Lime;
             this.btnConfirmarOrden.BorderRadius = 0;
-            this.btnConfirmarOrden.BorderSize = 3;
+            this.btnConfirmarOrden.BorderSize = 2;
             this.btnConfirmarOrden.FlatAppearance.BorderSize = 0;
             this.btnConfirmarOrden.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnConfirmarOrden.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -114,7 +114,7 @@
             this.btnEliminarReq.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnEliminarReq.BorderColor = System.Drawing.Color.OrangeRed;
             this.btnEliminarReq.BorderRadius = 0;
-            this.btnEliminarReq.BorderSize = 3;
+            this.btnEliminarReq.BorderSize = 2;
             this.btnEliminarReq.FlatAppearance.BorderSize = 0;
             this.btnEliminarReq.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnEliminarReq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -137,7 +137,7 @@
             this.btnAgregarReq.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregarReq.BorderColor = System.Drawing.Color.Yellow;
             this.btnAgregarReq.BorderRadius = 0;
-            this.btnAgregarReq.BorderSize = 3;
+            this.btnAgregarReq.BorderSize = 2;
             this.btnAgregarReq.FlatAppearance.BorderSize = 0;
             this.btnAgregarReq.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnAgregarReq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

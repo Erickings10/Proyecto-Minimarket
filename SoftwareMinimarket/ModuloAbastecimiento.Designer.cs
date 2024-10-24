@@ -88,7 +88,7 @@
             this.btnAbrirOC.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAbrirOC.BorderColor = System.Drawing.Color.Gold;
             this.btnAbrirOC.BorderRadius = 0;
-            this.btnAbrirOC.BorderSize = 3;
+            this.btnAbrirOC.BorderSize = 2;
             this.btnAbrirOC.FlatAppearance.BorderSize = 0;
             this.btnAbrirOC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
             this.btnAbrirOC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -111,7 +111,7 @@
             this.btnMostrarDetalle.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnMostrarDetalle.BorderColor = System.Drawing.Color.HotPink;
             this.btnMostrarDetalle.BorderRadius = 0;
-            this.btnMostrarDetalle.BorderSize = 3;
+            this.btnMostrarDetalle.BorderSize = 2;
             this.btnMostrarDetalle.FlatAppearance.BorderSize = 0;
             this.btnMostrarDetalle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
             this.btnMostrarDetalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -134,7 +134,7 @@
             this.btnRegistrarReque.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnRegistrarReque.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btnRegistrarReque.BorderRadius = 0;
-            this.btnRegistrarReque.BorderSize = 3;
+            this.btnRegistrarReque.BorderSize = 2;
             this.btnRegistrarReque.FlatAppearance.BorderSize = 0;
             this.btnRegistrarReque.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnRegistrarReque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -157,7 +157,7 @@
             this.btnAgregarProd.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregarProd.BorderColor = System.Drawing.Color.Lime;
             this.btnAgregarProd.BorderRadius = 0;
-            this.btnAgregarProd.BorderSize = 3;
+            this.btnAgregarProd.BorderSize = 2;
             this.btnAgregarProd.FlatAppearance.BorderSize = 0;
             this.btnAgregarProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btnAgregarProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -250,6 +250,7 @@
             // 
             // cmbPrior
             // 
+            this.cmbPrior.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbPrior.FormattingEnabled = true;
             this.cmbPrior.Location = new System.Drawing.Point(130, 168);
             this.cmbPrior.Name = "cmbPrior";

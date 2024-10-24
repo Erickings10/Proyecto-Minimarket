@@ -85,8 +85,8 @@
             this.btnNewRubro.BackColor = System.Drawing.Color.Transparent;
             this.btnNewRubro.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnNewRubro.BorderColor = System.Drawing.Color.Gold;
-            this.btnNewRubro.BorderRadius = 20;
-            this.btnNewRubro.BorderSize = 3;
+            this.btnNewRubro.BorderRadius = 10;
+            this.btnNewRubro.BorderSize = 2;
             this.btnNewRubro.FlatAppearance.BorderSize = 0;
             this.btnNewRubro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
             this.btnNewRubro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -109,7 +109,7 @@
             this.btn_Deshabilitar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Deshabilitar.BorderColor = System.Drawing.Color.OrangeRed;
             this.btn_Deshabilitar.BorderRadius = 0;
-            this.btn_Deshabilitar.BorderSize = 3;
+            this.btn_Deshabilitar.BorderSize = 2;
             this.btn_Deshabilitar.FlatAppearance.BorderSize = 0;
             this.btn_Deshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btn_Deshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -132,7 +132,7 @@
             this.btn_Modificar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Modificar.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btn_Modificar.BorderRadius = 0;
-            this.btn_Modificar.BorderSize = 3;
+            this.btn_Modificar.BorderSize = 2;
             this.btn_Modificar.FlatAppearance.BorderSize = 0;
             this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -155,7 +155,7 @@
             this.btn_Registrar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Registrar.BorderColor = System.Drawing.Color.Lime;
             this.btn_Registrar.BorderRadius = 0;
-            this.btn_Registrar.BorderSize = 3;
+            this.btn_Registrar.BorderSize = 2;
             this.btn_Registrar.FlatAppearance.BorderSize = 0;
             this.btn_Registrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btn_Registrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

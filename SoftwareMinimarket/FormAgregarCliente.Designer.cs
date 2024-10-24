@@ -79,8 +79,8 @@
             this.btn_Registrar.BackColor = System.Drawing.Color.Transparent;
             this.btn_Registrar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Registrar.BorderColor = System.Drawing.Color.Lime;
-            this.btn_Registrar.BorderRadius = 20;
-            this.btn_Registrar.BorderSize = 4;
+            this.btn_Registrar.BorderRadius = 10;
+            this.btn_Registrar.BorderSize = 2;
             this.btn_Registrar.FlatAppearance.BorderSize = 0;
             this.btn_Registrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btn_Registrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

@@ -20,9 +20,12 @@ namespace SoftwareMinimarket
         private Color borderColor = Color.RoyalBlue;
 
         private Dashboard model;
+        private Button currentButton;
         public FormDashboard()
         {
             InitializeComponent();
+            dgvUnderstock.ReadOnly = true;
+
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
             this.panelTitleBar.BackColor = borderColor;
@@ -32,6 +35,7 @@ namespace SoftwareMinimarket
             dtpEndDate.Value = DateTime.Now;
             btnLast7days.Select();
 
+            SetDateMenuButtonsUI(btnLast7days);
             model = new Dashboard();
             LoadData();
         }
@@ -211,8 +215,8 @@ namespace SoftwareMinimarket
             if (refreshData == true) 
             {
                 lblNumOrders.Text = model.NumOrders.ToString();
-                lblTotalRevenue.Text = "$" + model.TotalRevenue.ToString();
-                lblTotalProfit.Text = "$" + model.TotalProfit.ToString();
+                lblTotalRevenue.Text = "S/" + model.TotalRevenue.ToString();
+                lblTotalProfit.Text = "S/" + model.TotalProfit.ToString();
 
                 lblNumCustomers.Text = model.NumCustomers.ToString();
                 lblNumProducts.Text = model.NumProducts.ToString();
@@ -234,11 +238,42 @@ namespace SoftwareMinimarket
             }
             else Console.WriteLine("View not loaded, same query");
         }
-        private void DisableCustomDates()
+        private void SetDateMenuButtonsUI(object button) 
         {
-            dtpStartDate.Enabled = false;
-            dtpEndDate.Enabled = false;
-            btnOkCustomDate.Visible = false;
+            var btn = (Button)button;
+
+            Color selectedBackColor = Color.FromArgb(107, 83, 255);
+            Color selectedForeColor = Color.White;              
+            Color unselectedBackColor = Color.Transparent;
+            Color unselectedForeColor = Color.FromArgb(124, 141, 181);
+
+            btn.BackColor = selectedBackColor;
+            btn.ForeColor = selectedForeColor;
+
+            if (currentButton != null && currentButton != btn)
+            {
+                currentButton.BackColor = unselectedBackColor;
+                currentButton.ForeColor = unselectedForeColor;
+            }
+            currentButton = btn;
+
+            if (btn == btnCustomDate) 
+            {
+                dtpStartDate.Enabled = true;
+                dtpEndDate.Enabled = true;
+                btnOkCustomDate.Visible = true;
+                lblStartDate.Cursor = Cursors.Hand;
+                lblEndDate.Cursor = Cursors.Hand;
+            }
+            else 
+            {
+                dtpStartDate.Enabled = false;
+                dtpEndDate.Enabled = false;
+                btnOkCustomDate.Visible = false;
+                lblStartDate.Cursor = Cursors.Default;
+                lblEndDate.Cursor = Cursors.Default;
+            }
+
         }
         //Metodos
         private void btnToday_Click(object sender, EventArgs e)
@@ -246,7 +281,7 @@ namespace SoftwareMinimarket
             dtpStartDate.Value = DateTime.Today;
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            SetDateMenuButtonsUI(sender);
         }
 
         private void btnLast7days_Click(object sender, EventArgs e)
@@ -254,7 +289,7 @@ namespace SoftwareMinimarket
             dtpStartDate.Value = DateTime.Today.AddDays(-7);
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            SetDateMenuButtonsUI(sender);
         }
 
         private void btnLast30days_Click(object sender, EventArgs e)
@@ -262,7 +297,7 @@ namespace SoftwareMinimarket
             dtpStartDate.Value = DateTime.Today.AddDays(-30);
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            SetDateMenuButtonsUI(sender);
         }
 
         private void btnThisMonth_Click(object sender, EventArgs e)
@@ -270,19 +305,52 @@ namespace SoftwareMinimarket
             dtpStartDate.Value = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1);
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            SetDateMenuButtonsUI(sender);
         }
 
         private void btnCustomDate_Click(object sender, EventArgs e)
         {
-            dtpStartDate.Enabled = true;
-            dtpEndDate.Enabled = true;
-            btnOkCustomDate.Visible = true;
+            SetDateMenuButtonsUI(sender);
         }
 
         private void btnOkCustomDate_Click(object sender, EventArgs e)
         {
             LoadData();
+        }
+
+        private void lblStartDate_Click(object sender, EventArgs e)
+        {
+            if (currentButton == btnCustomDate) 
+            {
+                dtpStartDate.Select();
+                SendKeys.Send("%{DOWN}");
+            }
+        }
+
+        private void lblEndDate_Click(object sender, EventArgs e)
+        {
+            if (currentButton == btnCustomDate)
+            {
+                dtpEndDate.Select();
+                SendKeys.Send("%{DOWN}");
+            }
+        }
+
+        private void dtpStartDate_ValueChanged(object sender, EventArgs e)
+        {
+            lblStartDate.Text = dtpStartDate.Text;
+        }
+
+        private void dtpEndDate_ValueChanged(object sender, EventArgs e)
+        {
+            lblEndDate.Text = dtpEndDate.Text;
+        }
+
+        private void FormDashboard_Load(object sender, EventArgs e)
+        {
+            lblStartDate.Text = dtpStartDate.Text;
+            lblEndDate.Text = dtpEndDate.Text;
+            dgvUnderstock.Columns[1].Width = 50;
         }
     }
 }
