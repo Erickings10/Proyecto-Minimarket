@@ -61,7 +61,7 @@
             this.btnAgregarProv.BackColor = System.Drawing.Color.Transparent;
             this.btnAgregarProv.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregarProv.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAgregarProv.BorderRadius = 20;
+            this.btnAgregarProv.BorderRadius = 10;
             this.btnAgregarProv.BorderSize = 3;
             this.btnAgregarProv.FlatAppearance.BorderSize = 0;
             this.btnAgregarProv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

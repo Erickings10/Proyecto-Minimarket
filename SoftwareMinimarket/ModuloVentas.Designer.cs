@@ -90,8 +90,8 @@
             this.btnConfirmarVenta.BackColor = System.Drawing.Color.Transparent;
             this.btnConfirmarVenta.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnConfirmarVenta.BorderColor = System.Drawing.Color.Lime;
-            this.btnConfirmarVenta.BorderRadius = 20;
-            this.btnConfirmarVenta.BorderSize = 3;
+            this.btnConfirmarVenta.BorderRadius = 10;
+            this.btnConfirmarVenta.BorderSize = 2;
             this.btnConfirmarVenta.FlatAppearance.BorderSize = 0;
             this.btnConfirmarVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btnConfirmarVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -114,8 +114,8 @@
             this.btnAgregarProd.BackColor = System.Drawing.Color.Transparent;
             this.btnAgregarProd.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregarProd.BorderColor = System.Drawing.Color.Gold;
-            this.btnAgregarProd.BorderRadius = 20;
-            this.btnAgregarProd.BorderSize = 3;
+            this.btnAgregarProd.BorderRadius = 10;
+            this.btnAgregarProd.BorderSize = 2;
             this.btnAgregarProd.FlatAppearance.BorderSize = 0;
             this.btnAgregarProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
             this.btnAgregarProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -138,8 +138,8 @@
             this.btnNewCliente.BackColor = System.Drawing.Color.Transparent;
             this.btnNewCliente.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnNewCliente.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnNewCliente.BorderRadius = 20;
-            this.btnNewCliente.BorderSize = 3;
+            this.btnNewCliente.BorderRadius = 10;
+            this.btnNewCliente.BorderSize = 2;
             this.btnNewCliente.FlatAppearance.BorderSize = 0;
             this.btnNewCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnNewCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -242,6 +242,7 @@
             // 
             // cbClientes
             // 
+            this.cbClientes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbClientes.FormattingEnabled = true;
             this.cbClientes.Location = new System.Drawing.Point(207, 78);

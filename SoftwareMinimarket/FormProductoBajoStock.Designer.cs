@@ -65,8 +65,8 @@
             this.btn_Mostrar.BackColor = System.Drawing.Color.Transparent;
             this.btn_Mostrar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Mostrar.BorderColor = System.Drawing.Color.Lime;
-            this.btn_Mostrar.BorderRadius = 20;
-            this.btn_Mostrar.BorderSize = 3;
+            this.btn_Mostrar.BorderRadius = 10;
+            this.btn_Mostrar.BorderSize = 2;
             this.btn_Mostrar.FlatAppearance.BorderSize = 0;
             this.btn_Mostrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btn_Mostrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

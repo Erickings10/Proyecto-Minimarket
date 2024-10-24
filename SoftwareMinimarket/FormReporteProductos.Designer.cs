@@ -61,8 +61,8 @@
             this.btnAgregarProd.BackColor = System.Drawing.Color.Transparent;
             this.btnAgregarProd.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregarProd.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAgregarProd.BorderRadius = 20;
-            this.btnAgregarProd.BorderSize = 3;
+            this.btnAgregarProd.BorderRadius = 10;
+            this.btnAgregarProd.BorderSize = 2;
             this.btnAgregarProd.FlatAppearance.BorderSize = 0;
             this.btnAgregarProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAgregarProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

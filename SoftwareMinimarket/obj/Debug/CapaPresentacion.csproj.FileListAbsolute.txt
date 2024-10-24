@@ -273,3 +273,4 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimark
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormDashboard.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormDashboard.resources

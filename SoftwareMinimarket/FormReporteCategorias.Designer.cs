@@ -61,8 +61,8 @@
             this.btnAgregarCat.BackColor = System.Drawing.Color.Transparent;
             this.btnAgregarCat.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAgregarCat.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAgregarCat.BorderRadius = 20;
-            this.btnAgregarCat.BorderSize = 3;
+            this.btnAgregarCat.BorderRadius = 10;
+            this.btnAgregarCat.BorderSize = 2;
             this.btnAgregarCat.FlatAppearance.BorderSize = 0;
             this.btnAgregarCat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnAgregarCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

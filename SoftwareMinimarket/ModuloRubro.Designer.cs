@@ -74,7 +74,7 @@
             this.btn_Deshabilitar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Deshabilitar.BorderColor = System.Drawing.Color.OrangeRed;
             this.btn_Deshabilitar.BorderRadius = 0;
-            this.btn_Deshabilitar.BorderSize = 3;
+            this.btn_Deshabilitar.BorderSize = 2;
             this.btn_Deshabilitar.FlatAppearance.BorderSize = 0;
             this.btn_Deshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btn_Deshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -97,7 +97,7 @@
             this.btn_Modificar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Modificar.BorderColor = System.Drawing.Color.DeepSkyBlue;
             this.btn_Modificar.BorderRadius = 0;
-            this.btn_Modificar.BorderSize = 3;
+            this.btn_Modificar.BorderSize = 2;
             this.btn_Modificar.FlatAppearance.BorderSize = 0;
             this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -120,7 +120,7 @@
             this.btn_Agregar.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_Agregar.BorderColor = System.Drawing.Color.Lime;
             this.btn_Agregar.BorderRadius = 0;
-            this.btn_Agregar.BorderSize = 3;
+            this.btn_Agregar.BorderSize = 2;
             this.btn_Agregar.FlatAppearance.BorderSize = 0;
             this.btn_Agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
