@@ -33,9 +33,8 @@ namespace CapaLogica
 
         public async Task<string> GenerarBoletaPDFAsync(entBoleta factura, string rutaArchivo)
         {
-            return await datBoleta.Instancia.GenerarBoletaPDFAsync(factura,rutaArchivo);
+            return await datBoleta.Instancia.GenerarBoletaPDFAsync(factura, rutaArchivo);
         }
         #endregion
-
     }
 }

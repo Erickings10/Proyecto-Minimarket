@@ -124,6 +124,44 @@ namespace CapaDatos
                 cmd?.Connection.Close();
             }
         }
+
+        public entUdMedida BuscarUnidadMedida(int unidadMedidaID)
+        {
+            SqlCommand cmd = null;
+            entUdMedida cliente = null;
+
+            try
+            {
+                using (SqlConnection cn = datConexion.Instancia.Conectar())
+                {
+                    cmd = new SqlCommand("spBuscarUnidadMedida", cn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@UnidadMedidaID", unidadMedidaID);
+
+                    cn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            cliente = new entUdMedida
+                            {
+                                UnidadmedidaID = Convert.ToInt32(dr["UnidadmedidaID"]),
+                                Descripcion = Convert.ToString(dr["Descripcion"]),
+                                Estado = Convert.ToBoolean(dr["Estado"])
+                            };
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return cliente;
+        }
+
         #endregion metodos
     }
 }
