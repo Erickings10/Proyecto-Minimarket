@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace CapaDatos
 {
@@ -39,8 +39,8 @@ namespace CapaDatos
                     entCliente cliente = new entCliente();
                     cliente.ClienteID = Convert.ToInt32(dr["ClienteID"]);
                     cliente.DNI = Convert.ToString(dr["DNI"]);
-                    cliente.Nombre = Convert.ToString(dr["Nombre"]);
-                    cliente.Apellido = Convert.ToString(dr["Apellido"]);
+                    cliente.nombres = Convert.ToString(dr["Nombre"]);
+                    cliente.ApellidosCompletos = Convert.ToString(dr["Apellido"]);
                     cliente.Telefono = Convert.ToString(dr["Telefono"]);
                     cliente.Estado = Convert.ToBoolean(dr["Estado"]);
                     lista.Add(cliente);
@@ -69,8 +69,8 @@ namespace CapaDatos
 
                 // Parámetros para el procedimiento almacenado
                 cmd.Parameters.AddWithValue("@DNI", cliente.DNI);
-                cmd.Parameters.AddWithValue("@Nombre", cliente.Nombre);
-                cmd.Parameters.AddWithValue("@Apellido", cliente.Apellido);
+                cmd.Parameters.AddWithValue("@Nombre", cliente.nombres);
+                cmd.Parameters.AddWithValue("@Apellido", cliente.ApellidosCompletos);
                 cmd.Parameters.AddWithValue("@Telefono", cliente.Telefono);
                 cmd.Parameters.AddWithValue("@Estado", cliente.Estado);
 
@@ -91,6 +91,74 @@ namespace CapaDatos
             }
             return insercionExitosa;
         }
+
+        public async Task<entCliente> GetClienteAPI(string DNI)
+        {
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer apis-token-11119.jyjoTi5wPMn67fs7zNjdCjp5LRqNlYCE");
+
+            string cadena = "https://api.apis.net.pe/v2/reniec/dni?numero=" + DNI;
+            try
+            {
+                entCliente character = new entCliente();
+                HttpResponseMessage response = await
+                    client.GetAsync(cadena);
+                response.EnsureSuccessStatusCode();
+
+                string responseJson = await
+                    response.Content.ReadAsStringAsync();
+
+                character =
+                    JsonConvert.DeserializeObject<entCliente>(responseJson);
+
+                return character;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public entCliente BuscarClientePorID(int ClienteID)
+        {
+            SqlCommand cmd = null;
+            entCliente cliente = null;
+
+            try
+            {
+                using (SqlConnection cn = datConexion.Instancia.Conectar())
+                {
+                    cmd = new SqlCommand("spBuscarClientePorID", cn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@ClienteID", ClienteID);
+
+                    cn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            cliente = new entCliente
+                            {
+                                ClienteID = Convert.ToInt32(dr["ClienteID"]),
+                                DNI = Convert.ToString(dr["DNI"]),
+                                nombres = Convert.ToString(dr["Nombre"]),
+                                ApellidosCompletos = Convert.ToString(dr["Apellido"]),
+                                Telefono = Convert.ToString(dr["Telefono"]),
+                                Estado = Convert.ToBoolean(dr["Estado"])
+                            };
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return cliente;
+        }
+
         #endregion
     }
 }

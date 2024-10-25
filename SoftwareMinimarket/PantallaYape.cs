@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QRCoder;
 
 namespace SoftwareMinimarket
 {
@@ -16,6 +15,12 @@ namespace SoftwareMinimarket
         public PantallaYape()
         {
             InitializeComponent();
+        }
+
+        private void btnConfirmarVenta_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+            Close();
         }
     }
 }

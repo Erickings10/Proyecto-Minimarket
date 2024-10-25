@@ -12,7 +12,10 @@ namespace CapaDatos
     public class datMetodoPago
     {
         #region sigleton
+        //Patron Singleton
+        // Variable estática para la instancia
         private static readonly datMetodoPago _instancia = new datMetodoPago();
+        //privado para evitar la instanciación directa
         public static datMetodoPago Instancia
         {
             get
@@ -23,6 +26,7 @@ namespace CapaDatos
         #endregion singleton
 
         #region metodos
+
         public List<entMetodoPago> ListarMetodoPago()
         {
             SqlCommand cmd = null;
@@ -52,6 +56,43 @@ namespace CapaDatos
                 cmd.Connection.Close();
             }
             return lista;
+        }
+
+        public entMetodoPago BuscarMetodoPago(int MetodoPagoID)
+        {
+            SqlCommand cmd = null;
+            entMetodoPago cliente = null;
+
+            try
+            {
+                using (SqlConnection cn = datConexion.Instancia.Conectar())
+                {
+                    cmd = new SqlCommand("spBuscarMetodoPago", cn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@MetodoPagoID", MetodoPagoID);
+
+                    cn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            cliente = new entMetodoPago
+                            {
+                                MetododepagoID = Convert.ToInt32(dr["MetododepagoID"]),
+                                Descripcion = Convert.ToString(dr["Descripcion"]),
+                                Estado = Convert.ToBoolean(dr["Estado"])
+                            };
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return cliente;
         }
         #endregion
     }

@@ -80,5 +80,4 @@ namespace CapaEntidad
         public string code { get; set; }
         public string value { get; set; }
     }
-
 }

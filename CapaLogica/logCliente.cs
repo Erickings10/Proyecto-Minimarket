@@ -31,6 +31,16 @@ namespace CapaLogica
         {
             return datCliente.Instancia.InsertarCliente(cliente);
         }
+
+        public async Task<entCliente> GetClienteAPI(string DNI)
+        {
+            return await datCliente.Instancia.GetClienteAPI(DNI);
+        }
+        public entCliente BuscarClientePorID(int ClienteID)
+        {
+            return datCliente.Instancia.BuscarClientePorID(ClienteID);
+        }
+
         #endregion
     }
 }

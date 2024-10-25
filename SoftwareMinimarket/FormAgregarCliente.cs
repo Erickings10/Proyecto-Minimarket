@@ -198,23 +198,73 @@ namespace SoftwareMinimarket
 
         private void btn_Registrar_Click(object sender, EventArgs e)
         {
-            entCliente cliente = new entCliente
+            if (txtDNI.Text != "" || txtTelefono.Text != "")
             {
-                DNI = txtDNI.Text,
-                Nombre = txtNombre.Text,
-                Apellido = txtApellido.Text,
-                Telefono = txtTelefono.Text,
-                Estado = true
-            };
-            bool resultado = logCliente.Instancia.InsertarCliente(cliente);
-            if (resultado)
-            {
-                DialogResult = DialogResult.OK;
-                Close();
+                entCliente cliente = new entCliente
+                {
+                    DNI = txtDNI.Text,
+                    nombres = txtNombre.Text,
+                    ApellidosCompletos = txtApellido.Text,
+                    Telefono = txtTelefono.Text,
+                    Estado = true
+                };
+
+                bool resultado = logCliente.Instancia.InsertarCliente(cliente);
+
+                if (resultado)
+                {
+                    DialogResult = DialogResult.OK;
+                    Close();
+                }
+                else
+                    MessageBox.Show("Error al insertar cliente");
             }
             else
             {
-                MessageBox.Show("Error al insertar cliente");
+                MessageBox.Show("Complete todos los campos");
+            }
+        }
+
+        private async void txtDNI_TextChanged(object sender, EventArgs e)
+        {
+            // Verificamos que el texto tenga 8 dígitos
+            if (txtDNI.Text.Length == 8)
+            {
+                // Llamamos al método que obtiene el cliente de la API
+                var cliente = await logCliente.Instancia.GetClienteAPI(txtDNI.Text);
+
+                if (cliente != null)
+                {
+                    // Llenamos los campos si la consulta fue exitosa
+                    txtNombre.Text = cliente.nombres;
+                    txtApellido.Text = cliente.apellidoPaterno + " " + cliente.apellidoMaterno;
+                }
+                else
+                {
+                    MessageBox.Show("No se encontró un cliente con ese DNI.");
+                    txtNombre.Clear();
+                    txtApellido.Clear();
+                }
+            }
+        }
+
+        private void txtDNI_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verificamos si la tecla no es un número ni la tecla de retroceso (backspace)
+            if (!char.IsDigit(e.KeyChar))
+            {
+                // Cancelamos el evento, impidiendo que el carácter no numérico se ingrese
+                e.Handled = true;
+            }
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verificamos si la tecla es un número ni la tecla de retroceso (backspace)
+            if (!char.IsDigit(e.KeyChar))
+            {
+                // Cancelamos el evento, impidiendo que el carácter no numérico se ingrese
+                e.Handled = true;
             }
         }
     }

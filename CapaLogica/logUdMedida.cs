@@ -41,6 +41,11 @@ namespace CapaLogica
         {
             datUdMedida.Instancia.DeshabilitarMedidaProducto(med);
         }
+
+        public entUdMedida BuscarUnidadMedida(int id)
+        {
+            return datUdMedida.Instancia.BuscarUnidadMedida(id);
+        }
         #endregion metodos
     }
 }
