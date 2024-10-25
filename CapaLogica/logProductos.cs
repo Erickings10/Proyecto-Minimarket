@@ -39,16 +39,11 @@ namespace CapaLogica
         {
             return datProductos.Instancia.BuscarProductoPorID(productoID);
         }
+
         public entProductos BuscarProductoPorNombre(string descripcion)
         {
             return datProductos.Instancia.BuscarProductosPorDescripcion(descripcion);
         }
-        public List<entProductos> ListarProductosBajoStock(int cantidadLimite)
-        {
-            return datProductos.Instancia.ListarProductosBajoStock(cantidadLimite);
-        }
-
-
         #endregion
     }
 }

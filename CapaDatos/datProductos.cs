@@ -145,7 +145,6 @@ namespace CapaDatos
 
             return Prod;
         }
-        ////////////////////BUSCAR PRODUCTO POR NOMBRE
         public entProductos BuscarProductosPorDescripcion(string descripcion)
         {
             entProductos producto = new entProductos();
@@ -162,7 +161,7 @@ namespace CapaDatos
 
                 while (dr.Read())
                 {
-
+                    
                     producto.ProductoID = Convert.ToInt32(dr["ProductoID"]);
                     producto.CategoriaproductoID = Convert.ToInt32(dr["CategoriaID"]);
                     producto.descripcion = Convert.ToString(dr["Descripcion"]);
@@ -182,8 +181,10 @@ namespace CapaDatos
                 cmd?.Connection.Close();
             }
 
-            return producto;
+            return producto; 
         }
+
+
         ////////////////////MODIFICAR PRODUCTO
         public bool EditarProducto(entProductos producto)
         {
@@ -248,48 +249,6 @@ namespace CapaDatos
 
             return deshabilitacionExitosa;
         }
-
-        public List<entProductos> ListarProductosBajoStock(int cantidadLimite)
-        {
-            SqlCommand cmd = null;
-            List<entProductos> lista = new List<entProductos>();
-            try
-            {
-                SqlConnection cn = datConexion.Instancia.Conectar();  
-                cmd = new SqlCommand("spListarProductosPorDebajoDeCantidad", cn);  
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@CantidadLimite", cantidadLimite);  
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    entProductos Prod = new entProductos();
-
-                    Prod.ProductoID = Convert.ToInt32(dr["ProductoID"]);
-                    Prod.CategoriaproductoID = Convert.ToInt32(dr["CategoriaID"]);
-                    Prod.unidadMedidaID = Convert.ToInt32(dr["UnidadmedidaID"]);
-                    Prod.descripcion = Convert.ToString(dr["Descripcion"]);
-                    Prod.precioVenta = Convert.ToDecimal(dr["PrecioVenta"]);
-                    Prod.cantidad = Convert.ToInt32(dr["Cantidad"]);
-                    Prod.fecha = Convert.ToDateTime(dr["Fecha"]);
-                    Prod.estado = Convert.ToBoolean(dr["Estado"]);
-
-                    lista.Add(Prod);
-                }
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return lista;
-        }
-
-
-
         #endregion metodos
     }
 }

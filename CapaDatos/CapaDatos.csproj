@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,20 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="datBoleta.cs" />
     <Compile Include="datCategoria.cs" />
     <Compile Include="datCliente.cs" />
     <Compile Include="datConexion.cs" />
-    <Compile Include="datDetalleRequerimiento.cs" />
     <Compile Include="datMetodoPago.cs" />
     <Compile Include="datNotaEntrada.cs" />
-    <Compile Include="datOrdenCompra.cs" />
     <Compile Include="datProductos.cs" />
     <Compile Include="datProveedor.cs" />
-    <Compile Include="datRequerimiento.cs" />
     <Compile Include="datRubroProv.cs" />
     <Compile Include="datUdMedida.cs" />
     <Compile Include="datUsuario.cs" />
-    <Compile Include="datDetalleOrdenCompra.cs" />
     <Compile Include="datVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +63,9 @@
       <Project>{f3fb39c9-d955-4168-8a0b-5d99d2fa235f}</Project>
       <Name>CapaEntidad</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

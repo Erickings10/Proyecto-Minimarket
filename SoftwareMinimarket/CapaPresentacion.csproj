@@ -33,9 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,47 +49,20 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomControls.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Dashboard.cs" />
-    <Compile Include="FormDashboard.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDashboard.Designer.cs">
-      <DependentUpon>FormDashboard.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAgregarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormAgregarCliente.Designer.cs">
       <DependentUpon>FormAgregarCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormDetalleRequerimiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDetalleRequerimiento.Designer.cs">
-      <DependentUpon>FormDetalleRequerimiento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormProductoBajoStock.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProductoBajoStock.Designer.cs">
-      <DependentUpon>FormProductoBajoStock.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormReporteProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormReporteProveedor.Designer.cs">
-      <DependentUpon>FormReporteProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloAgregarProducto.cs">
       <SubType>Form</SubType>
@@ -147,11 +124,11 @@
     <Compile Include="ModuloVentas.Designer.cs">
       <DependentUpon>ModuloVentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOrdenCompra.cs">
+    <Compile Include="PantallaYape.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOrdenCompra.Designer.cs">
-      <DependentUpon>FormOrdenCompra.cs</DependentUpon>
+    <Compile Include="PantallaYape.Designer.cs">
+      <DependentUpon>PantallaYape.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -161,23 +138,11 @@
     <Compile Include="FormReporteProductos.Designer.cs">
       <DependentUpon>FormReporteProductos.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormDashboard.resx">
-      <DependentUpon>FormDashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAgregarCliente.resx">
       <DependentUpon>FormAgregarCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDetalleRequerimiento.resx">
-      <DependentUpon>FormDetalleRequerimiento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormProductoBajoStock.resx">
-      <DependentUpon>FormProductoBajoStock.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormReporteProveedor.resx">
-      <DependentUpon>FormReporteProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloAgregarProducto.resx">
       <DependentUpon>ModuloAgregarProducto.cs</DependentUpon>
@@ -209,8 +174,8 @@
     <EmbeddedResource Include="ModuloVentas.resx">
       <DependentUpon>ModuloVentas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormOrdenCompra.resx">
-      <DependentUpon>FormOrdenCompra.cs</DependentUpon>
+    <EmbeddedResource Include="PantallaYape.resx">
+      <DependentUpon>PantallaYape.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -224,6 +189,7 @@
     <EmbeddedResource Include="FormReporteProductos.resx">
       <DependentUpon>FormReporteProductos.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -238,10 +204,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
-      <Project>{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}</Project>
-      <Name>CapaDatos</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
       <Project>{f3fb39c9-d955-4168-8a0b-5d99d2fa235f}</Project>
       <Name>CapaEntidad</Name>
@@ -251,5 +213,6 @@
       <Name>CapaLogica</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,7 +12,10 @@ namespace CapaDatos
     public class datVenta
     {
         #region sigleton
+        //Patron Singleton
+        // Variable estática para la instancia
         private static readonly datVenta _instancia = new datVenta();
+        //privado para evitar la instanciación directa
         public static datVenta Instancia
         {
             get
@@ -21,8 +24,6 @@ namespace CapaDatos
             }
         }
         #endregion singleton
-
-        #region metodos
         public bool InsertarVenta(entVenta venta, List<entDetalleVenta> detallesVenta)
         {
             SqlCommand cmd = null;
@@ -73,6 +74,6 @@ namespace CapaDatos
             }
             return resultado;
         }
-        #endregion metodos
+
     }
 }

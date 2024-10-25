@@ -11,7 +11,10 @@ namespace CapaLogica
     public class logMetodoPago
     {
         #region sigleton
+        //Patron Singleton
+        // Variable estática para la instancia
         private static readonly logMetodoPago _instancia = new logMetodoPago();
+        //privado para evitar la instanciación directa
         public static logMetodoPago Instancia
         {
             get
@@ -27,6 +30,11 @@ namespace CapaLogica
         public List<entMetodoPago> ListarMetodoPago()
         {
             return datMetodoPago.Instancia.ListarMetodoPago();
+        }
+
+        public entMetodoPago BuscarMetodoPago(int id)
+        {
+            return datMetodoPago.Instancia.BuscarMetodoPago(id);
         }
         #endregion
     }
