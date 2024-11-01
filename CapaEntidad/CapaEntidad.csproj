@@ -44,6 +44,7 @@
     <Compile Include="entBoleta.cs" />
     <Compile Include="entCategoria.cs" />
     <Compile Include="entCliente.cs" />
+    <Compile Include="entDetalleNotaEntrada.cs" />
     <Compile Include="entDetalleOrdenCompra.cs" />
     <Compile Include="entDetalleRequerimiento.cs" />
     <Compile Include="entDetalleVenta.cs" />

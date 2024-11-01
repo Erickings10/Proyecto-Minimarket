@@ -28,22 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloEntradaProductos));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloEntradaProductos));
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.btn_Deshabilitar = new SoftwareMinimarket.CustomControls();
-            this.btn_Modificar = new SoftwareMinimarket.CustomControls();
-            this.btn_Registrar = new SoftwareMinimarket.CustomControls();
             this.gboDatos = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtTienda = new System.Windows.Forms.TextBox();
             this.btnBuscarProducto = new System.Windows.Forms.Button();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtProducto = new System.Windows.Forms.TextBox();
             this.chbx_Estado = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -55,6 +53,12 @@
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.dgvDetalles = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btn_Deshabilitar = new SoftwareMinimarket.CustomControls();
+            this.btn_Modificar = new SoftwareMinimarket.CustomControls();
+            this.btn_Registrar = new SoftwareMinimarket.CustomControls();
+            this.btnAgregarDetalle = new SoftwareMinimarket.CustomControls();
             this.panelContainer.SuspendLayout();
             this.gboDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntradaProductos)).BeginInit();
@@ -62,11 +66,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
             this.SuspendLayout();
             // 
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.Controls.Add(this.label2);
+            this.panelContainer.Controls.Add(this.dgvDetalles);
             this.panelContainer.Controls.Add(this.btn_Deshabilitar);
             this.panelContainer.Controls.Add(this.btn_Modificar);
             this.panelContainer.Controls.Add(this.btn_Registrar);
@@ -76,89 +83,19 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(0, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(945, 601);
+            this.panelContainer.Size = new System.Drawing.Size(945, 676);
             this.panelContainer.TabIndex = 0;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
-            // 
-            // btn_Deshabilitar
-            // 
-            this.btn_Deshabilitar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Deshabilitar.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btn_Deshabilitar.BorderColor = System.Drawing.Color.OrangeRed;
-            this.btn_Deshabilitar.BorderRadius = 0;
-            this.btn_Deshabilitar.BorderSize = 2;
-            this.btn_Deshabilitar.FlatAppearance.BorderSize = 0;
-            this.btn_Deshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.btn_Deshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Deshabilitar.ForeColor = System.Drawing.Color.Black;
-            this.btn_Deshabilitar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Deshabilitar.Image")));
-            this.btn_Deshabilitar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Deshabilitar.Location = new System.Drawing.Point(704, 225);
-            this.btn_Deshabilitar.Name = "btn_Deshabilitar";
-            this.btn_Deshabilitar.Size = new System.Drawing.Size(172, 64);
-            this.btn_Deshabilitar.TabIndex = 66;
-            this.btn_Deshabilitar.Text = "DESHABILITAR";
-            this.btn_Deshabilitar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Deshabilitar.TextColor = System.Drawing.Color.Black;
-            this.btn_Deshabilitar.UseVisualStyleBackColor = false;
-            this.btn_Deshabilitar.Click += new System.EventHandler(this.btn_Deshabilitar_Click);
-            // 
-            // btn_Modificar
-            // 
-            this.btn_Modificar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Modificar.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btn_Modificar.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btn_Modificar.BorderRadius = 0;
-            this.btn_Modificar.BorderSize = 2;
-            this.btn_Modificar.FlatAppearance.BorderSize = 0;
-            this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Modificar.ForeColor = System.Drawing.Color.Black;
-            this.btn_Modificar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Modificar.Image")));
-            this.btn_Modificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Modificar.Location = new System.Drawing.Point(704, 149);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(172, 64);
-            this.btn_Modificar.TabIndex = 65;
-            this.btn_Modificar.Text = "MODIFICAR";
-            this.btn_Modificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Modificar.TextColor = System.Drawing.Color.Black;
-            this.btn_Modificar.UseVisualStyleBackColor = false;
-            this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
-            // 
-            // btn_Registrar
-            // 
-            this.btn_Registrar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Registrar.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btn_Registrar.BorderColor = System.Drawing.Color.Lime;
-            this.btn_Registrar.BorderRadius = 0;
-            this.btn_Registrar.BorderSize = 2;
-            this.btn_Registrar.FlatAppearance.BorderSize = 0;
-            this.btn_Registrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
-            this.btn_Registrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Registrar.ForeColor = System.Drawing.Color.Black;
-            this.btn_Registrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Registrar.Image")));
-            this.btn_Registrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Registrar.Location = new System.Drawing.Point(704, 68);
-            this.btn_Registrar.Name = "btn_Registrar";
-            this.btn_Registrar.Size = new System.Drawing.Size(172, 64);
-            this.btn_Registrar.TabIndex = 64;
-            this.btn_Registrar.Text = "REGISTRAR";
-            this.btn_Registrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Registrar.TextColor = System.Drawing.Color.Black;
-            this.btn_Registrar.UseVisualStyleBackColor = false;
-            this.btn_Registrar.Click += new System.EventHandler(this.btn_Registrar_Click);
             // 
             // gboDatos
             // 
             this.gboDatos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.gboDatos.Controls.Add(this.btnAgregarDetalle);
             this.gboDatos.Controls.Add(this.label3);
             this.gboDatos.Controls.Add(this.txtUsuario);
-            this.gboDatos.Controls.Add(this.txtTienda);
             this.gboDatos.Controls.Add(this.btnBuscarProducto);
             this.gboDatos.Controls.Add(this.txtDescripcion);
             this.gboDatos.Controls.Add(this.label5);
-            this.gboDatos.Controls.Add(this.label4);
             this.gboDatos.Controls.Add(this.txtProducto);
             this.gboDatos.Controls.Add(this.chbx_Estado);
             this.gboDatos.Controls.Add(this.label6);
@@ -169,7 +106,7 @@
             this.gboDatos.Margin = new System.Windows.Forms.Padding(4);
             this.gboDatos.Name = "gboDatos";
             this.gboDatos.Padding = new System.Windows.Forms.Padding(4);
-            this.gboDatos.Size = new System.Drawing.Size(564, 221);
+            this.gboDatos.Size = new System.Drawing.Size(496, 221);
             this.gboDatos.TabIndex = 63;
             this.gboDatos.TabStop = false;
             this.gboDatos.Text = "Datos";
@@ -193,15 +130,6 @@
             this.txtUsuario.Size = new System.Drawing.Size(66, 26);
             this.txtUsuario.TabIndex = 3;
             // 
-            // txtTienda
-            // 
-            this.txtTienda.Location = new System.Drawing.Point(146, 151);
-            this.txtTienda.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTienda.Name = "txtTienda";
-            this.txtTienda.ReadOnly = true;
-            this.txtTienda.Size = new System.Drawing.Size(39, 26);
-            this.txtTienda.TabIndex = 56;
-            // 
             // btnBuscarProducto
             // 
             this.btnBuscarProducto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBuscarProducto.BackgroundImage")));
@@ -218,7 +146,7 @@
             this.txtDescripcion.Location = new System.Drawing.Point(272, 70);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(271, 26);
+            this.txtDescripcion.Size = new System.Drawing.Size(189, 26);
             this.txtDescripcion.TabIndex = 54;
             // 
             // label5
@@ -230,16 +158,6 @@
             this.label5.Size = new System.Drawing.Size(104, 20);
             this.label5.TabIndex = 53;
             this.label5.Text = "Descripcion:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.Location = new System.Drawing.Point(19, 154);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 20);
-            this.label4.TabIndex = 51;
-            this.label4.Text = "ID Tienda";
             // 
             // txtProducto
             // 
@@ -254,7 +172,7 @@
             // 
             this.chbx_Estado.AutoSize = true;
             this.chbx_Estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.chbx_Estado.Location = new System.Drawing.Point(378, 181);
+            this.chbx_Estado.Location = new System.Drawing.Point(23, 157);
             this.chbx_Estado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbx_Estado.Name = "chbx_Estado";
             this.chbx_Estado.Size = new System.Drawing.Size(83, 24);
@@ -292,35 +210,35 @@
             // 
             // dgvEntradaProductos
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEntradaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEntradaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvEntradaProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEntradaProductos.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvEntradaProductos.Location = new System.Drawing.Point(21, 313);
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEntradaProductos.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvEntradaProductos.Location = new System.Drawing.Point(30, 393);
             this.dgvEntradaProductos.Margin = new System.Windows.Forms.Padding(4);
             this.dgvEntradaProductos.Name = "dgvEntradaProductos";
             this.dgvEntradaProductos.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEntradaProductos.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEntradaProductos.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvEntradaProductos.RowHeadersWidth = 51;
             this.dgvEntradaProductos.Size = new System.Drawing.Size(896, 270);
             this.dgvEntradaProductos.TabIndex = 59;
@@ -384,12 +302,149 @@
             this.label1.TabIndex = 58;
             this.label1.Text = "ENTRADA DE PRODUCTOS";
             // 
+            // dgvDetalles
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDetalles.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvDetalles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDetalles.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvDetalles.Location = new System.Drawing.Point(590, 108);
+            this.dgvDetalles.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvDetalles.Name = "dgvDetalles";
+            this.dgvDetalles.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDetalles.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvDetalles.RowHeadersWidth = 51;
+            this.dgvDetalles.Size = new System.Drawing.Size(305, 181);
+            this.dgvDetalles.TabIndex = 67;
+            this.dgvDetalles.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalles_CellDoubleClick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(586, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 20);
+            this.label2.TabIndex = 58;
+            this.label2.Text = "DETALLES";
+            // 
+            // btn_Deshabilitar
+            // 
+            this.btn_Deshabilitar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Deshabilitar.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_Deshabilitar.BorderColor = System.Drawing.Color.OrangeRed;
+            this.btn_Deshabilitar.BorderRadius = 0;
+            this.btn_Deshabilitar.BorderSize = 2;
+            this.btn_Deshabilitar.FlatAppearance.BorderSize = 0;
+            this.btn_Deshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.btn_Deshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Deshabilitar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Deshabilitar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Deshabilitar.Image")));
+            this.btn_Deshabilitar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Deshabilitar.Location = new System.Drawing.Point(723, 322);
+            this.btn_Deshabilitar.Name = "btn_Deshabilitar";
+            this.btn_Deshabilitar.Size = new System.Drawing.Size(172, 64);
+            this.btn_Deshabilitar.TabIndex = 66;
+            this.btn_Deshabilitar.Text = "DESHABILITAR";
+            this.btn_Deshabilitar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Deshabilitar.TextColor = System.Drawing.Color.Black;
+            this.btn_Deshabilitar.UseVisualStyleBackColor = false;
+            this.btn_Deshabilitar.Click += new System.EventHandler(this.btn_Deshabilitar_Click);
+            // 
+            // btn_Modificar
+            // 
+            this.btn_Modificar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Modificar.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_Modificar.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_Modificar.BorderRadius = 0;
+            this.btn_Modificar.BorderSize = 2;
+            this.btn_Modificar.FlatAppearance.BorderSize = 0;
+            this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Modificar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Modificar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Modificar.Image")));
+            this.btn_Modificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Modificar.Location = new System.Drawing.Point(413, 322);
+            this.btn_Modificar.Name = "btn_Modificar";
+            this.btn_Modificar.Size = new System.Drawing.Size(172, 64);
+            this.btn_Modificar.TabIndex = 65;
+            this.btn_Modificar.Text = "MODIFICAR";
+            this.btn_Modificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Modificar.TextColor = System.Drawing.Color.Black;
+            this.btn_Modificar.UseVisualStyleBackColor = false;
+            this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
+            // 
+            // btn_Registrar
+            // 
+            this.btn_Registrar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Registrar.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_Registrar.BorderColor = System.Drawing.Color.Lime;
+            this.btn_Registrar.BorderRadius = 0;
+            this.btn_Registrar.BorderSize = 2;
+            this.btn_Registrar.FlatAppearance.BorderSize = 0;
+            this.btn_Registrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.btn_Registrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Registrar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Registrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Registrar.Image")));
+            this.btn_Registrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Registrar.Location = new System.Drawing.Point(61, 322);
+            this.btn_Registrar.Name = "btn_Registrar";
+            this.btn_Registrar.Size = new System.Drawing.Size(172, 64);
+            this.btn_Registrar.TabIndex = 64;
+            this.btn_Registrar.Text = "REGISTRAR";
+            this.btn_Registrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Registrar.TextColor = System.Drawing.Color.Black;
+            this.btn_Registrar.UseVisualStyleBackColor = false;
+            this.btn_Registrar.Click += new System.EventHandler(this.btn_Registrar_Click);
+            // 
+            // btnAgregarDetalle
+            // 
+            this.btnAgregarDetalle.BackColor = System.Drawing.Color.Transparent;
+            this.btnAgregarDetalle.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnAgregarDetalle.BorderColor = System.Drawing.Color.Transparent;
+            this.btnAgregarDetalle.BorderRadius = 0;
+            this.btnAgregarDetalle.BorderSize = 2;
+            this.btnAgregarDetalle.FlatAppearance.BorderSize = 0;
+            this.btnAgregarDetalle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.btnAgregarDetalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarDetalle.ForeColor = System.Drawing.Color.Black;
+            this.btnAgregarDetalle.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarDetalle.Image")));
+            this.btnAgregarDetalle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAgregarDetalle.Location = new System.Drawing.Point(451, 183);
+            this.btnAgregarDetalle.Name = "btnAgregarDetalle";
+            this.btnAgregarDetalle.Size = new System.Drawing.Size(45, 38);
+            this.btnAgregarDetalle.TabIndex = 68;
+            this.btnAgregarDetalle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAgregarDetalle.TextColor = System.Drawing.Color.Black;
+            this.btnAgregarDetalle.UseVisualStyleBackColor = false;
+            this.btnAgregarDetalle.Click += new System.EventHandler(this.btnAgregarDetalle_Click);
+            // 
             // ModuloEntradaProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(945, 601);
+            this.ClientSize = new System.Drawing.Size(945, 676);
             this.Controls.Add(this.panelContainer);
             this.Name = "ModuloEntradaProductos";
             this.Text = "ModuloEntradaProductos";
@@ -399,6 +454,7 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.ModuloEntradaProductos_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ModuloEntradaProductos_MouseDown);
             this.panelContainer.ResumeLayout(false);
+            this.panelContainer.PerformLayout();
             this.gboDatos.ResumeLayout(false);
             this.gboDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntradaProductos)).EndInit();
@@ -407,6 +463,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -417,11 +474,9 @@
         private System.Windows.Forms.GroupBox gboDatos;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtTienda;
         private System.Windows.Forms.Button btnBuscarProducto;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtProducto;
         private System.Windows.Forms.CheckBox chbx_Estado;
         private System.Windows.Forms.Label label6;
@@ -436,5 +491,8 @@
         private CustomControls btn_Registrar;
         private CustomControls btn_Modificar;
         private CustomControls btn_Deshabilitar;
+        private System.Windows.Forms.DataGridView dgvDetalles;
+        private System.Windows.Forms.Label label2;
+        private CustomControls btnAgregarDetalle;
     }
 }
