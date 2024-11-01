@@ -13,6 +13,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SoftwareMinimarket
 {
@@ -32,6 +33,8 @@ namespace SoftwareMinimarket
             detallesNotaEntrada = new List<entDetalleNotaEntrada>();
             desProducto = new entProductos();
             desnotaEntrada = new entNotaEntrada();
+            btn_Modificar.Enabled = false;
+            btn_Deshabilitar.Enabled = false;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
             this.panelTitleBar.BackColor = borderColor;
@@ -212,7 +215,7 @@ namespace SoftwareMinimarket
                     entNotaEntrada nuevaNotaEntrada = new entNotaEntrada
                     {
                         Fecha = DateTime.Now,
-                        Estado = chbx_Estado.Checked,
+                        Estado = true,
                         UsuarioID = Convert.ToInt32(txtUsuario.Text)
                     };
 
@@ -234,7 +237,8 @@ namespace SoftwareMinimarket
                 }
                 else
                 {
-                    MessageBox.Show("No hay detalles para insertar.");
+                    MessageBox.Show("No hay detalles para insertar. \n Cancelando proceso...");
+                    return;
                 }
 
             }
@@ -248,12 +252,10 @@ namespace SoftwareMinimarket
         }
         private void LimpiarVariables()
         {
-
             txtUsuario.Text = "";
             txtDescripcion.Text = "";
             txtProducto.Text = "";
             txtCantidad.Text = "";
-            chbx_Estado.Checked = false;
         }
 
         public void ListarEntrada()
@@ -293,6 +295,11 @@ namespace SoftwareMinimarket
         }
         private void btn_Modificar_Click(object sender, EventArgs e)
         {
+            if (desnotaEntrada == null)
+            {
+                MessageBox.Show("Seleccione una nota de entrada");
+                return;
+            }
             try
             {
                 // Validación de UsuarioID
@@ -307,7 +314,7 @@ namespace SoftwareMinimarket
                 {
                     NotaEntradaID = desnotaEntrada.NotaEntradaID, // ID de la nota existente
                     Fecha = DateTime.Now,
-                    Estado = chbx_Estado.Checked,
+                    Estado = desnotaEntrada.Estado,
                     UsuarioID = usuarioID
                 };
 
@@ -334,6 +341,8 @@ namespace SoftwareMinimarket
             LimpiarVariables(); // Limpiar controles después de modificar
             desnotaEntrada = null;
             detallesNotaEntrada.Clear(); // Limpiar la lista de detalles
+            btn_Modificar.Enabled = false;
+            btn_Deshabilitar.Enabled = false;
         }
 
         private void btnBuscarProducto_Click(object sender, EventArgs e)
@@ -343,6 +352,9 @@ namespace SoftwareMinimarket
 
         private void dgvEntradaProductos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            btn_Modificar.Enabled = true;
+            btn_Deshabilitar.Enabled = true;
+
             DataGridViewRow filaActual = dgvEntradaProductos.Rows[e.RowIndex];
 
             int notaEntradaID = Convert.ToInt32(filaActual.Cells["NotaEntradaID"].Value);
@@ -355,7 +367,6 @@ namespace SoftwareMinimarket
             {
                 // Asignar valores a los controles
                 txtUsuario.Text = desnotaEntrada.UsuarioID.ToString();
-                chbx_Estado.Checked = desnotaEntrada.Estado;
 
                 // Limpiar dgvDetalles antes de llenarlo
                 dgvDetalles.DataSource = null;
@@ -373,6 +384,12 @@ namespace SoftwareMinimarket
         }
         private void btn_Deshabilitar_Click(object sender, EventArgs e)
         {
+            if (desnotaEntrada == null)
+            {
+                MessageBox.Show("Seleccione una nota de entrada");
+                return;
+            }
+
             try
             {
                 bool resultado = logNotaEntrada.Instancia.DeshabilitarNotaEntrada(desnotaEntrada);
@@ -394,6 +411,8 @@ namespace SoftwareMinimarket
             ListarEntrada();
             desnotaEntrada = null;
             detallesNotaEntrada.Clear();
+            btn_Modificar.Enabled = false;
+            btn_Deshabilitar.Enabled = false;
         }
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
@@ -409,6 +428,14 @@ namespace SoftwareMinimarket
 
         private void btnAgregarDetalle_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtProducto.Text) ||
+                string.IsNullOrWhiteSpace(txtCantidad.Text) ||
+                string.IsNullOrWhiteSpace(txtDescripcion.Text))
+            {
+                MessageBox.Show("Complete todos los campos!");
+                return;
+            }
+
             if (detallesNotaEntrada.FirstOrDefault(n => n.ProductoID == desProducto.ProductoID) != null)
             {
                 entDetalleNotaEntrada detalleEncontrado = detallesNotaEntrada.FirstOrDefault(n => n.ProductoID == desProducto.ProductoID);

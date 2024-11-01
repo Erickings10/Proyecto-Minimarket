@@ -85,9 +85,9 @@
             this.btn_Registrar.ForeColor = System.Drawing.Color.Black;
             this.btn_Registrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Registrar.Image")));
             this.btn_Registrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Registrar.Location = new System.Drawing.Point(474, 59);
+            this.btn_Registrar.Location = new System.Drawing.Point(454, 59);
             this.btn_Registrar.Name = "btn_Registrar";
-            this.btn_Registrar.Size = new System.Drawing.Size(148, 50);
+            this.btn_Registrar.Size = new System.Drawing.Size(168, 50);
             this.btn_Registrar.TabIndex = 103;
             this.btn_Registrar.Text = "Registrar Cliente";
             this.btn_Registrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

@@ -181,6 +181,7 @@
             this.txtTotalVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalVenta.Location = new System.Drawing.Point(31, 487);
             this.txtTotalVenta.Name = "txtTotalVenta";
+            this.txtTotalVenta.ReadOnly = true;
             this.txtTotalVenta.Size = new System.Drawing.Size(136, 27);
             this.txtTotalVenta.TabIndex = 110;
             // 

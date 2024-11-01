@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\moduloentradaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloentradaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\formagregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formagregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\capadatos\\datnotaentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datnotaentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\formagregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formagregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\moduloentradaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloentradaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\capadatos\\datconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3FB39C9-D955-4168-8A0B-5D99D2FA235F}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\capaentidad\\entproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB39C9-D955-4168-8A0B-5D99D2FA235F}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\entproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\94881\\onedrive\\escritorio\\proyecto diars\\proyecto-minimarket\\softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "datNotaEntrada.cs",
-              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\CapaDatos\\datNotaEntrada.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\datNotaEntrada.cs",
-              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\CapaDatos\\datNotaEntrada.cs",
-              "RelativeToolTip": "CapaDatos\\datNotaEntrada.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAmwHcAAAA3AAAAAAAAAA==",
+              "Title": "FormAgregarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\FormAgregarCliente.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormAgregarCliente.cs",
+              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\FormAgregarCliente.cs",
+              "RelativeToolTip": "SoftwareMinimarket\\FormAgregarCliente.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAmwA0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T00:49:39.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "datConexion.cs",
-              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\CapaDatos\\datConexion.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\datConexion.cs",
-              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\CapaDatos\\datConexion.cs",
-              "RelativeToolTip": "CapaDatos\\datConexion.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:45:35.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModuloEntradaProductos.cs",
-              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloEntradaProductos.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloEntradaProductos.cs",
-              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloEntradaProductos.cs",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloEntradaProductos.cs",
-              "ViewState": "AgIAAC0BAAAAAAAAAAAAwGABAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:04:06.057Z",
+              "WhenOpened": "2024-11-01T20:28:35.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ModuloEntradaProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloEntradaProductos.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloEntradaProductos.cs",
-              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloEntradaProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloEntradaProductos.cs [Dise\u00F1o]",
+              "Title": "FormAgregarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\FormAgregarCliente.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormAgregarCliente.cs",
+              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\FormAgregarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\FormAgregarCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:04:03.032Z",
+              "WhenOpened": "2024-11-01T20:28:27.521Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "entProductos.cs",
-              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\CapaEntidad\\entProductos.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\entProductos.cs",
-              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\CapaEntidad\\entProductos.cs",
-              "RelativeToolTip": "CapaEntidad\\entProductos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ModuloVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloVentas.cs",
+              "ToolTip": "C:\\Users\\94881\\OneDrive\\Escritorio\\PROYECTO DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:36:20.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T20:27:53.747Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
