@@ -425,7 +425,7 @@ namespace SoftwareMinimarket
             MessageBox.Show(respuesta);
 
             // Especifica la ruta donde guardar el PDF
-            string rutaArchivo = @"C:\Users\94881\OneDrive\Escritorio\API\boleta.pdf";
+            string rutaArchivo = @"C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Boletas\boleta.pdf";
 
             // Llama la función para generar el PDF y guardarlo
             string result = await logBoleta.Instancia.GenerarBoletaPDFAsync(factura, rutaArchivo);

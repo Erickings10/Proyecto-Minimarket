@@ -27,19 +27,23 @@ namespace CapaLogica
         {
             return datNotaEntrada.Instancia.ListarNotasEntrada();
         }
-        public bool InsertarNotaEntrada(entNotaEntrada notaEntrada)
+        public bool InsertarNotaEntrada(entNotaEntrada notaEntrada, List<entDetalleNotaEntrada> detallesNotaEntrada)
         {
-            return datNotaEntrada.Instancia.InsertarNotaEntrada(notaEntrada);
+            return datNotaEntrada.Instancia.InsertarNotaEntrada(notaEntrada, detallesNotaEntrada);
         }
-        public bool ModificarNotaEntrada(entNotaEntrada notaEntrada)
+        public bool ModificarNotaEntrada(entNotaEntrada notaEntrada, List<entDetalleNotaEntrada> detallesNotaEntrada)
         {
-            return datNotaEntrada.Instancia.ModificarNotaEntrada(notaEntrada);
+            return datNotaEntrada.Instancia.ModificarNotaEntrada(notaEntrada, detallesNotaEntrada);
         }
-
         public bool DeshabilitarNotaEntrada(entNotaEntrada notaEntrada)
         {
             return datNotaEntrada.Instancia.DeshabilitarNotaEntrada(notaEntrada);
         }
+        public entNotaEntrada ObtenerDetallesNotaEntrada(int notaEntradaID)
+        {
+            return datNotaEntrada.Instancia.ObtenerDetallesNotaEntrada(notaEntradaID);
+        }
+
         #endregion
     }
 }

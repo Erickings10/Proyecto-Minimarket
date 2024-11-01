@@ -8,13 +8,11 @@ namespace CapaEntidad
 {
     public class entNotaEntrada
     {
-        public int NotaEntradaID { get; set; }
-        public int ProductoID { get; set; }
-        public int Cantidad { get; set; }
-        public int TiendaID { get; set; }
-        public string Descripcion { get; set; }
-        public DateTime Fecha { get; set; }
-        public bool Estado { get; set; }
-        public int UsuarioID { get; set; }
+        public int NotaEntradaID { get; set; }      // ID de la nota de entrada
+        public DateTime Fecha { get; set; }         // Fecha de la nota de entrada
+        public bool Estado { get; set; }            // Estado de la nota de entrada (activo/inactivo)
+        public int UsuarioID { get; set; }          // ID del usuario que crea la nota de entrada
+        public List<entDetalleNotaEntrada> Detalles { get; set; } = new List<entDetalleNotaEntrada>(); // Lista de detalles
     }
+
 }
