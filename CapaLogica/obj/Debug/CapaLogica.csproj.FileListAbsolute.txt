@@ -131,3 +131,7 @@ C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaLogica
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaLogica.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaDatos.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\Newtonsoft.Json.xml

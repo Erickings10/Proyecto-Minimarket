@@ -357,3 +357,8 @@ C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\SoftwareMi
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll.config
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\Newtonsoft.Json.xml
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.PantallaYape.resources

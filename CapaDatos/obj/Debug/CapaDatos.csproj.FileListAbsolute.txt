@@ -109,3 +109,7 @@ C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaDatos\
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Debug\QRCoder.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Debug\Newtonsoft.Json.xml
