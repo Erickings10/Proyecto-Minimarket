@@ -97,7 +97,7 @@ namespace SoftwareMinimarket
                     // Obtener productos con bajo stock
                     command.CommandText = @"SELECT Descripcion, Cantidad
                                         FROM Producto
-                                        WHERE Cantidad <= 50";
+                                        WHERE Cantidad <= 15";
                     reader = command.ExecuteReader();
                     while (reader.Read())
                     {

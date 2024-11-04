@@ -212,7 +212,7 @@ namespace SoftwareMinimarket
                     entNotaEntrada nuevaNotaEntrada = new entNotaEntrada
                     {
                         Fecha = DateTime.Now,
-                        Estado = chbx_Estado.Checked,
+                        Estado = true,
                         UsuarioID = Convert.ToInt32(txtUsuario.Text)
                     };
 
@@ -253,7 +253,6 @@ namespace SoftwareMinimarket
             txtDescripcion.Text = "";
             txtProducto.Text = "";
             txtCantidad.Text = "";
-            chbx_Estado.Checked = false;
         }
 
         public void ListarEntrada()
@@ -293,6 +292,11 @@ namespace SoftwareMinimarket
         }
         private void btn_Modificar_Click(object sender, EventArgs e)
         {
+            if (desnotaEntrada == null)
+            {
+                MessageBox.Show("Seleccione una nota de entrada");
+                return;
+            }
             try
             {
                 // Validación de UsuarioID
@@ -307,7 +311,7 @@ namespace SoftwareMinimarket
                 {
                     NotaEntradaID = desnotaEntrada.NotaEntradaID, // ID de la nota existente
                     Fecha = DateTime.Now,
-                    Estado = chbx_Estado.Checked,
+                    Estado = true,
                     UsuarioID = usuarioID
                 };
 
@@ -355,7 +359,6 @@ namespace SoftwareMinimarket
             {
                 // Asignar valores a los controles
                 txtUsuario.Text = desnotaEntrada.UsuarioID.ToString();
-                chbx_Estado.Checked = desnotaEntrada.Estado;
 
                 // Limpiar dgvDetalles antes de llenarlo
                 dgvDetalles.DataSource = null;
@@ -409,6 +412,13 @@ namespace SoftwareMinimarket
 
         private void btnAgregarDetalle_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtProducto.Text) ||
+                string.IsNullOrWhiteSpace(txtCantidad.Text) ||
+                string.IsNullOrWhiteSpace(txtDescripcion.Text))
+            {
+                MessageBox.Show("Complete todos los campos!");
+                return;
+            }
             if (detallesNotaEntrada.FirstOrDefault(n => n.ProductoID == desProducto.ProductoID) != null)
             {
                 entDetalleNotaEntrada detalleEncontrado = detallesNotaEntrada.FirstOrDefault(n => n.ProductoID == desProducto.ProductoID);

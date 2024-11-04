@@ -250,6 +250,11 @@ namespace SoftwareMinimarket
 
         private void txtDNI_KeyPress(object sender, KeyPressEventArgs e)
         {
+            // Limitar el número de caracteres a 8
+            if (char.IsDigit(e.KeyChar) && txtDNI.Text.Length >= 8)
+            {
+                e.Handled = true; // Cancela el evento si ya hay 8 caracteres
+            }
             // Verificamos si la tecla no es un número ni la tecla de retroceso (backspace)
             if (!char.IsDigit(e.KeyChar))
             {
@@ -260,6 +265,11 @@ namespace SoftwareMinimarket
 
         private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
+            // Limitar el número de caracteres a 9
+            if (char.IsDigit(e.KeyChar) && txtDNI.Text.Length >= 9)
+            {
+                e.Handled = true; // Cancela el evento si ya hay 9 caracteres
+            }
             // Verificamos si la tecla es un número ni la tecla de retroceso (backspace)
             if (!char.IsDigit(e.KeyChar))
             {
