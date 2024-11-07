@@ -35,7 +35,6 @@
             this.btnAgregarReq = new SoftwareMinimarket.CustomControls();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -61,7 +60,6 @@
             this.panelContainer.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSeleccion)).BeginInit();
@@ -70,7 +68,7 @@
             // 
             // panelContainer
             // 
-            this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(0)))), ((int)(((byte)(114)))));
             this.panelContainer.Controls.Add(this.btnConfirmarOrden);
             this.panelContainer.Controls.Add(this.btnEliminarReq);
             this.panelContainer.Controls.Add(this.btnAgregarReq);
@@ -95,7 +93,7 @@
             this.btnConfirmarOrden.FlatAppearance.BorderSize = 0;
             this.btnConfirmarOrden.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnConfirmarOrden.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmarOrden.ForeColor = System.Drawing.Color.Black;
+            this.btnConfirmarOrden.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnConfirmarOrden.Image = ((System.Drawing.Image)(resources.GetObject("btnConfirmarOrden.Image")));
             this.btnConfirmarOrden.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConfirmarOrden.Location = new System.Drawing.Point(73, 518);
@@ -104,7 +102,7 @@
             this.btnConfirmarOrden.TabIndex = 40;
             this.btnConfirmarOrden.Text = "Confirmar Orden";
             this.btnConfirmarOrden.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnConfirmarOrden.TextColor = System.Drawing.Color.Black;
+            this.btnConfirmarOrden.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnConfirmarOrden.UseVisualStyleBackColor = false;
             this.btnConfirmarOrden.Click += new System.EventHandler(this.btnConfirmarOrden_Click);
             // 
@@ -118,7 +116,7 @@
             this.btnEliminarReq.FlatAppearance.BorderSize = 0;
             this.btnEliminarReq.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnEliminarReq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarReq.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarReq.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnEliminarReq.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarReq.Image")));
             this.btnEliminarReq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEliminarReq.Location = new System.Drawing.Point(176, 449);
@@ -127,7 +125,7 @@
             this.btnEliminarReq.TabIndex = 39;
             this.btnEliminarReq.Text = "Eliminar Requerimiento";
             this.btnEliminarReq.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEliminarReq.TextColor = System.Drawing.Color.Black;
+            this.btnEliminarReq.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnEliminarReq.UseVisualStyleBackColor = false;
             this.btnEliminarReq.Click += new System.EventHandler(this.btnEliminarReq_Click);
             // 
@@ -141,7 +139,7 @@
             this.btnAgregarReq.FlatAppearance.BorderSize = 0;
             this.btnAgregarReq.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnAgregarReq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarReq.ForeColor = System.Drawing.Color.Black;
+            this.btnAgregarReq.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnAgregarReq.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarReq.Image")));
             this.btnAgregarReq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregarReq.Location = new System.Drawing.Point(8, 449);
@@ -150,7 +148,7 @@
             this.btnAgregarReq.TabIndex = 38;
             this.btnAgregarReq.Text = "Agregar Requerimiento";
             this.btnAgregarReq.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAgregarReq.TextColor = System.Drawing.Color.Black;
+            this.btnAgregarReq.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnAgregarReq.UseVisualStyleBackColor = false;
             this.btnAgregarReq.Click += new System.EventHandler(this.btnAgregarReq_Click);
             // 
@@ -158,7 +156,6 @@
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelTitleBar.Controls.Add(this.btnMinimizar);
-            this.panelTitleBar.Controls.Add(this.btnMaximizar);
             this.panelTitleBar.Controls.Add(this.btnCerrar);
             this.panelTitleBar.Controls.Add(this.label1);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -171,23 +168,13 @@
             // btnMinimizar
             // 
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(768, 8);
+            this.btnMinimizar.Location = new System.Drawing.Point(823, 8);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(35, 35);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 106;
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(816, 8);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(35, 35);
-            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 105;
-            this.btnMaximizar.TabStop = false;
             // 
             // btnCerrar
             // 
@@ -204,7 +191,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(45, 6);
+            this.label1.Location = new System.Drawing.Point(5, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(306, 39);
             this.label1.TabIndex = 29;
@@ -212,7 +199,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(0)))), ((int)(((byte)(148)))));
             this.groupBox2.Controls.Add(this.btnProveedor);
             this.groupBox2.Controls.Add(this.txtProveedorID);
             this.groupBox2.Controls.Add(this.label5);
@@ -221,6 +208,7 @@
             this.groupBox2.Controls.Add(this.chkEstado);
             this.groupBox2.Controls.Add(this.txtTotal);
             this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox2.Location = new System.Drawing.Point(8, 231);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(326, 205);
@@ -249,10 +237,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(9, 39);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 20);
+            this.label5.Size = new System.Drawing.Size(108, 18);
             this.label5.TabIndex = 31;
             this.label5.Text = "PROVEEDOR:";
             // 
@@ -266,20 +254,20 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(11, 84);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(207, 20);
+            this.label8.Size = new System.Drawing.Size(186, 18);
             this.label8.TabIndex = 29;
             this.label8.Text = "CANT. REQUERIMIENTO:";
             // 
             // chkEstado
             // 
             this.chkEstado.AutoSize = true;
-            this.chkEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkEstado.Location = new System.Drawing.Point(15, 158);
             this.chkEstado.Name = "chkEstado";
-            this.chkEstado.Size = new System.Drawing.Size(100, 24);
+            this.chkEstado.Size = new System.Drawing.Size(91, 22);
             this.chkEstado.TabIndex = 28;
             this.chkEstado.Text = "ESTADO";
             this.chkEstado.UseVisualStyleBackColor = true;
@@ -294,10 +282,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(11, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 20);
+            this.label4.Size = new System.Drawing.Size(59, 18);
             this.label4.TabIndex = 26;
             this.label4.Text = "TOTAL:";
             // 
@@ -347,12 +335,13 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(0)))), ((int)(((byte)(148)))));
             this.groupBox1.Controls.Add(this.txtPrecioRequerimiento);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtRequerimientoID);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.btnRequerimiento);
+            this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Location = new System.Drawing.Point(8, 59);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(326, 155);
@@ -370,10 +359,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(6, 96);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(221, 20);
+            this.label7.Size = new System.Drawing.Size(199, 18);
             this.label7.TabIndex = 17;
             this.label7.Text = "PRECIO REQUERIMIENTO:";
             // 
@@ -387,10 +376,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(9, 49);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(153, 20);
+            this.label6.Size = new System.Drawing.Size(138, 18);
             this.label6.TabIndex = 15;
             this.label6.Text = "REQUERIMIENTO:";
             // 
@@ -424,7 +413,6 @@
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -461,7 +449,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnRequerimiento;
         private System.Windows.Forms.PictureBox btnMinimizar;
-        private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnCerrar;
         private CustomControls btnAgregarReq;
         private CustomControls btnEliminarReq;

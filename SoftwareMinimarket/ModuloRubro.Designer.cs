@@ -41,20 +41,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRubros)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panelContainer
             // 
-            this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(0)))), ((int)(((byte)(114)))));
             this.panelContainer.Controls.Add(this.btn_Deshabilitar);
             this.panelContainer.Controls.Add(this.btn_Modificar);
             this.panelContainer.Controls.Add(this.btn_Agregar);
@@ -78,7 +76,7 @@
             this.btn_Deshabilitar.FlatAppearance.BorderSize = 0;
             this.btn_Deshabilitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btn_Deshabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Deshabilitar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Deshabilitar.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Deshabilitar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Deshabilitar.Image")));
             this.btn_Deshabilitar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Deshabilitar.Location = new System.Drawing.Point(69, 344);
@@ -87,7 +85,7 @@
             this.btn_Deshabilitar.TabIndex = 110;
             this.btn_Deshabilitar.Text = "DESHABILITAR";
             this.btn_Deshabilitar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Deshabilitar.TextColor = System.Drawing.Color.Black;
+            this.btn_Deshabilitar.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Deshabilitar.UseVisualStyleBackColor = false;
             this.btn_Deshabilitar.Click += new System.EventHandler(this.btn_Deshabilitar_Click);
             // 
@@ -101,7 +99,7 @@
             this.btn_Modificar.FlatAppearance.BorderSize = 0;
             this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Modificar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Modificar.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Modificar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Modificar.Image")));
             this.btn_Modificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Modificar.Location = new System.Drawing.Point(159, 271);
@@ -110,7 +108,7 @@
             this.btn_Modificar.TabIndex = 108;
             this.btn_Modificar.Text = "MODIFICAR";
             this.btn_Modificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Modificar.TextColor = System.Drawing.Color.Black;
+            this.btn_Modificar.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Modificar.UseVisualStyleBackColor = false;
             this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
             // 
@@ -124,7 +122,7 @@
             this.btn_Agregar.FlatAppearance.BorderSize = 0;
             this.btn_Agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Agregar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Agregar.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Agregar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Agregar.Image")));
             this.btn_Agregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Agregar.Location = new System.Drawing.Point(17, 271);
@@ -133,7 +131,7 @@
             this.btn_Agregar.TabIndex = 109;
             this.btn_Agregar.Text = "AGREGAR";
             this.btn_Agregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Agregar.TextColor = System.Drawing.Color.Black;
+            this.btn_Agregar.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Agregar.UseVisualStyleBackColor = false;
             this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
@@ -150,12 +148,13 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(0)))), ((int)(((byte)(148)))));
             this.groupBox1.Controls.Add(this.txtRubro);
             this.groupBox1.Controls.Add(this.txtID);
             this.groupBox1.Controls.Add(this.chbEstado);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Location = new System.Drawing.Point(17, 66);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(270, 186);
@@ -208,7 +207,6 @@
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panelTitleBar.Controls.Add(this.btnMaximizar);
             this.panelTitleBar.Controls.Add(this.btnCerrar);
             this.panelTitleBar.Controls.Add(this.label1);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -217,16 +215,6 @@
             this.panelTitleBar.Size = new System.Drawing.Size(800, 50);
             this.panelTitleBar.TabIndex = 0;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(696, 8);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(35, 35);
-            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 105;
-            this.btnMaximizar.TabStop = false;
             // 
             // btnCerrar
             // 
@@ -243,7 +231,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 7);
+            this.label1.Location = new System.Drawing.Point(9, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 39);
             this.label1.TabIndex = 8;
@@ -269,7 +257,6 @@
             this.groupBox1.PerformLayout();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
@@ -287,7 +274,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnCerrar;
         private CustomControls btn_Deshabilitar;
         private CustomControls btn_Modificar;

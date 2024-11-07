@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuloAbastecimiento));
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.btnAbrirOC = new SoftwareMinimarket.CustomControls();
-            this.btnMostrarDetalle = new SoftwareMinimarket.CustomControls();
-            this.btnRegistrarReque = new SoftwareMinimarket.CustomControls();
-            this.btnAgregarProd = new SoftwareMinimarket.CustomControls();
             this.chbEstado = new System.Windows.Forms.CheckBox();
             this.dgvDetalleRequerimiento = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,21 +48,23 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAbrirOC = new SoftwareMinimarket.CustomControls();
+            this.btnMostrarDetalle = new SoftwareMinimarket.CustomControls();
+            this.btnRegistrarReque = new SoftwareMinimarket.CustomControls();
+            this.btnAgregarProd = new SoftwareMinimarket.CustomControls();
             this.panelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleRequerimiento)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panelContainer
             // 
-            this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(0)))), ((int)(((byte)(114)))));
             this.panelContainer.Controls.Add(this.btnAbrirOC);
             this.panelContainer.Controls.Add(this.btnMostrarDetalle);
             this.panelContainer.Controls.Add(this.btnRegistrarReque);
@@ -82,102 +80,11 @@
             this.panelContainer.TabIndex = 0;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
-            // btnAbrirOC
-            // 
-            this.btnAbrirOC.BackColor = System.Drawing.Color.Transparent;
-            this.btnAbrirOC.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnAbrirOC.BorderColor = System.Drawing.Color.Gold;
-            this.btnAbrirOC.BorderRadius = 0;
-            this.btnAbrirOC.BorderSize = 2;
-            this.btnAbrirOC.FlatAppearance.BorderSize = 0;
-            this.btnAbrirOC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
-            this.btnAbrirOC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirOC.ForeColor = System.Drawing.Color.Black;
-            this.btnAbrirOC.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirOC.Image")));
-            this.btnAbrirOC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbrirOC.Location = new System.Drawing.Point(75, 376);
-            this.btnAbrirOC.Name = "btnAbrirOC";
-            this.btnAbrirOC.Size = new System.Drawing.Size(218, 56);
-            this.btnAbrirOC.TabIndex = 29;
-            this.btnAbrirOC.Text = "ABRIR ORDEN COMPRA";
-            this.btnAbrirOC.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAbrirOC.TextColor = System.Drawing.Color.Black;
-            this.btnAbrirOC.UseVisualStyleBackColor = false;
-            this.btnAbrirOC.Click += new System.EventHandler(this.btnAbrirOC_Click);
-            // 
-            // btnMostrarDetalle
-            // 
-            this.btnMostrarDetalle.BackColor = System.Drawing.Color.Transparent;
-            this.btnMostrarDetalle.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnMostrarDetalle.BorderColor = System.Drawing.Color.HotPink;
-            this.btnMostrarDetalle.BorderRadius = 0;
-            this.btnMostrarDetalle.BorderSize = 2;
-            this.btnMostrarDetalle.FlatAppearance.BorderSize = 0;
-            this.btnMostrarDetalle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
-            this.btnMostrarDetalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMostrarDetalle.ForeColor = System.Drawing.Color.Black;
-            this.btnMostrarDetalle.Image = ((System.Drawing.Image)(resources.GetObject("btnMostrarDetalle.Image")));
-            this.btnMostrarDetalle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMostrarDetalle.Location = new System.Drawing.Point(75, 450);
-            this.btnMostrarDetalle.Name = "btnMostrarDetalle";
-            this.btnMostrarDetalle.Size = new System.Drawing.Size(218, 56);
-            this.btnMostrarDetalle.TabIndex = 28;
-            this.btnMostrarDetalle.Text = "MOSTRAR DETALLE";
-            this.btnMostrarDetalle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMostrarDetalle.TextColor = System.Drawing.Color.Black;
-            this.btnMostrarDetalle.UseVisualStyleBackColor = false;
-            this.btnMostrarDetalle.Click += new System.EventHandler(this.btnMostrarDetalle_Click);
-            // 
-            // btnRegistrarReque
-            // 
-            this.btnRegistrarReque.BackColor = System.Drawing.Color.Transparent;
-            this.btnRegistrarReque.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnRegistrarReque.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnRegistrarReque.BorderRadius = 0;
-            this.btnRegistrarReque.BorderSize = 2;
-            this.btnRegistrarReque.FlatAppearance.BorderSize = 0;
-            this.btnRegistrarReque.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.btnRegistrarReque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrarReque.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrarReque.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrarReque.Image")));
-            this.btnRegistrarReque.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarReque.Location = new System.Drawing.Point(187, 305);
-            this.btnRegistrarReque.Name = "btnRegistrarReque";
-            this.btnRegistrarReque.Size = new System.Drawing.Size(208, 56);
-            this.btnRegistrarReque.TabIndex = 27;
-            this.btnRegistrarReque.Text = "REGISTRAR REQUERIMIENTO";
-            this.btnRegistrarReque.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRegistrarReque.TextColor = System.Drawing.Color.Black;
-            this.btnRegistrarReque.UseVisualStyleBackColor = false;
-            this.btnRegistrarReque.Click += new System.EventHandler(this.btnRegistrarReque_Click);
-            // 
-            // btnAgregarProd
-            // 
-            this.btnAgregarProd.BackColor = System.Drawing.Color.Transparent;
-            this.btnAgregarProd.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnAgregarProd.BorderColor = System.Drawing.Color.Lime;
-            this.btnAgregarProd.BorderRadius = 0;
-            this.btnAgregarProd.BorderSize = 2;
-            this.btnAgregarProd.FlatAppearance.BorderSize = 0;
-            this.btnAgregarProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
-            this.btnAgregarProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarProd.ForeColor = System.Drawing.Color.Black;
-            this.btnAgregarProd.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarProd.Image")));
-            this.btnAgregarProd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregarProd.Location = new System.Drawing.Point(9, 305);
-            this.btnAgregarProd.Name = "btnAgregarProd";
-            this.btnAgregarProd.Size = new System.Drawing.Size(157, 56);
-            this.btnAgregarProd.TabIndex = 26;
-            this.btnAgregarProd.Text = "AGREGAR PRODUCTO";
-            this.btnAgregarProd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAgregarProd.TextColor = System.Drawing.Color.Black;
-            this.btnAgregarProd.UseVisualStyleBackColor = false;
-            this.btnAgregarProd.Click += new System.EventHandler(this.btnAgregarProd_Click);
-            // 
             // chbEstado
             // 
             this.chbEstado.AutoSize = true;
             this.chbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbEstado.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.chbEstado.Location = new System.Drawing.Point(42, 275);
             this.chbEstado.Name = "chbEstado";
             this.chbEstado.Size = new System.Drawing.Size(83, 24);
@@ -231,7 +138,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(0)))), ((int)(((byte)(148)))));
             this.groupBox1.Controls.Add(this.cmbPrior);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtCantidad);
@@ -241,6 +148,8 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Location = new System.Drawing.Point(42, 62);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(326, 203);
@@ -333,7 +242,6 @@
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelTitleBar.Controls.Add(this.btnMinimizar);
-            this.panelTitleBar.Controls.Add(this.btnMaximizar);
             this.panelTitleBar.Controls.Add(this.btnCerrar);
             this.panelTitleBar.Controls.Add(this.label1);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -346,23 +254,13 @@
             // btnMinimizar
             // 
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(708, 7);
+            this.btnMinimizar.Location = new System.Drawing.Point(760, 7);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(35, 35);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 106;
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(756, 7);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(35, 35);
-            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 105;
-            this.btnMaximizar.TabStop = false;
             // 
             // btnCerrar
             // 
@@ -379,11 +277,103 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 7);
+            this.label1.Location = new System.Drawing.Point(7, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(264, 39);
             this.label1.TabIndex = 17;
             this.label1.Text = "REQUERIMIENTO";
+            // 
+            // btnAbrirOC
+            // 
+            this.btnAbrirOC.BackColor = System.Drawing.Color.Transparent;
+            this.btnAbrirOC.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnAbrirOC.BorderColor = System.Drawing.Color.Gold;
+            this.btnAbrirOC.BorderRadius = 0;
+            this.btnAbrirOC.BorderSize = 2;
+            this.btnAbrirOC.FlatAppearance.BorderSize = 0;
+            this.btnAbrirOC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
+            this.btnAbrirOC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbrirOC.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAbrirOC.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirOC.Image")));
+            this.btnAbrirOC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbrirOC.Location = new System.Drawing.Point(75, 376);
+            this.btnAbrirOC.Name = "btnAbrirOC";
+            this.btnAbrirOC.Size = new System.Drawing.Size(218, 56);
+            this.btnAbrirOC.TabIndex = 29;
+            this.btnAbrirOC.Text = "ABRIR ORDEN COMPRA";
+            this.btnAbrirOC.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAbrirOC.TextColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAbrirOC.UseVisualStyleBackColor = false;
+            this.btnAbrirOC.Click += new System.EventHandler(this.btnAbrirOC_Click);
+            // 
+            // btnMostrarDetalle
+            // 
+            this.btnMostrarDetalle.BackColor = System.Drawing.Color.Transparent;
+            this.btnMostrarDetalle.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnMostrarDetalle.BorderColor = System.Drawing.Color.HotPink;
+            this.btnMostrarDetalle.BorderRadius = 0;
+            this.btnMostrarDetalle.BorderSize = 2;
+            this.btnMostrarDetalle.FlatAppearance.BorderSize = 0;
+            this.btnMostrarDetalle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
+            this.btnMostrarDetalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMostrarDetalle.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnMostrarDetalle.Image = ((System.Drawing.Image)(resources.GetObject("btnMostrarDetalle.Image")));
+            this.btnMostrarDetalle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMostrarDetalle.Location = new System.Drawing.Point(75, 450);
+            this.btnMostrarDetalle.Name = "btnMostrarDetalle";
+            this.btnMostrarDetalle.Size = new System.Drawing.Size(218, 56);
+            this.btnMostrarDetalle.TabIndex = 28;
+            this.btnMostrarDetalle.Text = "MOSTRAR DETALLE";
+            this.btnMostrarDetalle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMostrarDetalle.TextColor = System.Drawing.Color.WhiteSmoke;
+            this.btnMostrarDetalle.UseVisualStyleBackColor = false;
+            this.btnMostrarDetalle.Click += new System.EventHandler(this.btnMostrarDetalle_Click);
+            // 
+            // btnRegistrarReque
+            // 
+            this.btnRegistrarReque.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegistrarReque.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnRegistrarReque.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistrarReque.BorderRadius = 0;
+            this.btnRegistrarReque.BorderSize = 2;
+            this.btnRegistrarReque.FlatAppearance.BorderSize = 0;
+            this.btnRegistrarReque.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnRegistrarReque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrarReque.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRegistrarReque.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrarReque.Image")));
+            this.btnRegistrarReque.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegistrarReque.Location = new System.Drawing.Point(187, 305);
+            this.btnRegistrarReque.Name = "btnRegistrarReque";
+            this.btnRegistrarReque.Size = new System.Drawing.Size(208, 56);
+            this.btnRegistrarReque.TabIndex = 27;
+            this.btnRegistrarReque.Text = "REGISTRAR REQUERIMIENTO";
+            this.btnRegistrarReque.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRegistrarReque.TextColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRegistrarReque.UseVisualStyleBackColor = false;
+            this.btnRegistrarReque.Click += new System.EventHandler(this.btnRegistrarReque_Click);
+            // 
+            // btnAgregarProd
+            // 
+            this.btnAgregarProd.BackColor = System.Drawing.Color.Transparent;
+            this.btnAgregarProd.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnAgregarProd.BorderColor = System.Drawing.Color.Lime;
+            this.btnAgregarProd.BorderRadius = 0;
+            this.btnAgregarProd.BorderSize = 2;
+            this.btnAgregarProd.FlatAppearance.BorderSize = 0;
+            this.btnAgregarProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
+            this.btnAgregarProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarProd.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAgregarProd.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarProd.Image")));
+            this.btnAgregarProd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAgregarProd.Location = new System.Drawing.Point(9, 305);
+            this.btnAgregarProd.Name = "btnAgregarProd";
+            this.btnAgregarProd.Size = new System.Drawing.Size(157, 56);
+            this.btnAgregarProd.TabIndex = 26;
+            this.btnAgregarProd.Text = "AGREGAR PRODUCTO";
+            this.btnAgregarProd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAgregarProd.TextColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAgregarProd.UseVisualStyleBackColor = false;
+            this.btnAgregarProd.Click += new System.EventHandler(this.btnAgregarProd_Click);
             // 
             // ModuloAbastecimiento
             // 
@@ -408,7 +398,6 @@
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
@@ -436,7 +425,6 @@
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox btnMinimizar;
-        private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnCerrar;
         private CustomControls btnAgregarProd;
         private CustomControls btnRegistrarReque;

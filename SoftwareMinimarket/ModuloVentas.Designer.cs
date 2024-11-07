@@ -47,7 +47,6 @@
             this.dgvResumenVenta = new System.Windows.Forms.DataGridView();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelContainer.SuspendLayout();
@@ -55,13 +54,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvResumenVenta)).BeginInit();
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panelContainer
             // 
-            this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(0)))), ((int)(((byte)(114)))));
             this.panelContainer.Controls.Add(this.btnConfirmarVenta);
             this.panelContainer.Controls.Add(this.btnAgregarProd);
             this.panelContainer.Controls.Add(this.btnNewCliente);
@@ -95,8 +93,8 @@
             this.btnConfirmarVenta.FlatAppearance.BorderSize = 0;
             this.btnConfirmarVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGreen;
             this.btnConfirmarVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmarVenta.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmarVenta.ForeColor = System.Drawing.Color.Black;
+            this.btnConfirmarVenta.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmarVenta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnConfirmarVenta.Image = ((System.Drawing.Image)(resources.GetObject("btnConfirmarVenta.Image")));
             this.btnConfirmarVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConfirmarVenta.Location = new System.Drawing.Point(463, 537);
@@ -105,7 +103,7 @@
             this.btnConfirmarVenta.TabIndex = 115;
             this.btnConfirmarVenta.Text = "Confirmar Venta";
             this.btnConfirmarVenta.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnConfirmarVenta.TextColor = System.Drawing.Color.Black;
+            this.btnConfirmarVenta.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnConfirmarVenta.UseVisualStyleBackColor = false;
             this.btnConfirmarVenta.Click += new System.EventHandler(this.btnConfirmarVenta_Click);
             // 
@@ -119,8 +117,8 @@
             this.btnAgregarProd.FlatAppearance.BorderSize = 0;
             this.btnAgregarProd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
             this.btnAgregarProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarProd.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarProd.ForeColor = System.Drawing.Color.Black;
+            this.btnAgregarProd.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarProd.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnAgregarProd.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarProd.Image")));
             this.btnAgregarProd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregarProd.Location = new System.Drawing.Point(252, 166);
@@ -129,7 +127,7 @@
             this.btnAgregarProd.TabIndex = 114;
             this.btnAgregarProd.Text = "Agregar Producto";
             this.btnAgregarProd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAgregarProd.TextColor = System.Drawing.Color.Black;
+            this.btnAgregarProd.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnAgregarProd.UseVisualStyleBackColor = false;
             this.btnAgregarProd.Click += new System.EventHandler(this.btnAgregarProd_Click);
             // 
@@ -143,8 +141,8 @@
             this.btnNewCliente.FlatAppearance.BorderSize = 0;
             this.btnNewCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnNewCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewCliente.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewCliente.ForeColor = System.Drawing.Color.Black;
+            this.btnNewCliente.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewCliente.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnNewCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnNewCliente.Image")));
             this.btnNewCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNewCliente.Location = new System.Drawing.Point(476, 68);
@@ -153,7 +151,7 @@
             this.btnNewCliente.TabIndex = 113;
             this.btnNewCliente.Text = "Nuevo Cliente";
             this.btnNewCliente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNewCliente.TextColor = System.Drawing.Color.Black;
+            this.btnNewCliente.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnNewCliente.UseVisualStyleBackColor = false;
             this.btnNewCliente.Click += new System.EventHandler(this.btnNewCliente_Click);
             // 
@@ -170,6 +168,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label7.Location = new System.Drawing.Point(221, 449);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(135, 20);
@@ -188,6 +187,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Location = new System.Drawing.Point(27, 449);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(140, 20);
@@ -198,6 +198,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Location = new System.Drawing.Point(27, 236);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(174, 20);
@@ -216,6 +217,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Location = new System.Drawing.Point(27, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 20);
@@ -234,6 +236,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Location = new System.Drawing.Point(27, 130);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(140, 20);
@@ -254,6 +257,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(27, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 20);
@@ -275,7 +279,6 @@
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelTitleBar.Controls.Add(this.btnMinimizar);
-            this.panelTitleBar.Controls.Add(this.btnMaximizar);
             this.panelTitleBar.Controls.Add(this.btnCerrar);
             this.panelTitleBar.Controls.Add(this.label1);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -288,23 +291,13 @@
             // btnMinimizar
             // 
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(524, 8);
+            this.btnMinimizar.Location = new System.Drawing.Point(571, 8);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(35, 35);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 116;
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(572, 8);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(35, 35);
-            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 115;
-            this.btnMaximizar.TabStop = false;
             // 
             // btnCerrar
             // 
@@ -348,7 +341,6 @@
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
@@ -372,7 +364,6 @@
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox btnMinimizar;
-        private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnCerrar;
         private CustomControls btnNewCliente;
         private CustomControls btnAgregarProd;

@@ -49,7 +49,7 @@
             // 
             // panelContainer
             // 
-            this.panelContainer.BackColor = System.Drawing.Color.Lavender;
+            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(0)))), ((int)(((byte)(114)))));
             this.panelContainer.Controls.Add(this.btnDashboard);
             this.panelContainer.Controls.Add(this.btnCerrarSesion);
             this.panelContainer.Controls.Add(this.panelTitleBar);
@@ -77,7 +77,7 @@
             this.btnDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gold;
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.Black;
+            this.btnDashboard.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
             this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.Location = new System.Drawing.Point(25, 448);
@@ -86,7 +86,7 @@
             this.btnDashboard.TabIndex = 10;
             this.btnDashboard.Text = "DASHBOARD";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDashboard.TextColor = System.Drawing.Color.Black;
+            this.btnDashboard.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnDashboard.UseVisualStyleBackColor = false;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
@@ -102,7 +102,7 @@
             this.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrarSesion.ForeColor = System.Drawing.Color.Black;
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
             this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCerrarSesion.Location = new System.Drawing.Point(830, 479);
@@ -111,7 +111,7 @@
             this.btnCerrarSesion.TabIndex = 9;
             this.btnCerrarSesion.Text = "CERRAR SESION";
             this.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCerrarSesion.TextColor = System.Drawing.Color.Black;
+            this.btnCerrarSesion.TextColor = System.Drawing.Color.WhiteSmoke;
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
@@ -140,6 +140,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft JhengHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Location = new System.Drawing.Point(731, 371);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(219, 29);
@@ -150,6 +151,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Location = new System.Drawing.Point(473, 371);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 29);
@@ -160,6 +162,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(142, 371);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(129, 29);
