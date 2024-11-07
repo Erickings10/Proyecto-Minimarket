@@ -402,3 +402,4 @@ C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\C
 C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
 C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRequerimientoList.resources
