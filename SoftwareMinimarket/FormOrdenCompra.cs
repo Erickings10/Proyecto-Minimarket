@@ -325,7 +325,13 @@ namespace SoftwareMinimarket
 
         private void btnRequerimiento_Click(object sender, EventArgs e)
         {
-
+            using (FormRequerimientoList FRP = new FormRequerimientoList())
+            {
+                if (FRP.ShowDialog() == DialogResult.OK)
+                {
+                    txtRequerimientoID.Text = FRP.RequerimientoID;
+                }
+            }
         }
     }
 }

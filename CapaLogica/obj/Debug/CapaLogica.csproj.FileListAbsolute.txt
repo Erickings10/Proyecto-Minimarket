@@ -135,3 +135,18 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-M
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\Newtonsoft.Json.dll
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaDatos.dll.config
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaLogica.dll.config
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaDatos.dll.config
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaLogica\obj\Debug\CapaLogica.pdb

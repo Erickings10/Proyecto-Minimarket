@@ -28,6 +28,10 @@ namespace CapaLogica
         {
             return datRequerimiento.Instancia.InsertarRequerimiento(ref req);
         }
+        public List<entRequerimiento> ListarRequerimientos()
+        {
+            return datRequerimiento.Instancia.ListarRequerimientos();
+        }
 
         #endregion metodos
     }

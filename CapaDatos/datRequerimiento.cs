@@ -59,6 +59,42 @@ namespace CapaDatos
             }
             return insertado;
         }
+        public List<entRequerimiento> ListarRequerimientos()
+        {
+            SqlCommand cmd = null;
+            List<entRequerimiento> lista = new List<entRequerimiento>();
+
+            try
+            {
+                SqlConnection cn = datConexion.Instancia.Conectar();  // Usando el patrón Singleton
+                cmd = new SqlCommand("spListarRequerimientos", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entRequerimiento requerimiento = new entRequerimiento
+                    {
+                        RequerimientoID = Convert.ToInt32(dr["RequerimientoID"]),
+                        Fecha = Convert.ToDateTime(dr["Fecha"]),
+                        Estado = Convert.ToBoolean(dr["Estado"])
+                    };
+
+                    lista.Add(requerimiento);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+
+            return lista;
+        }
 
 
         #endregion metodos

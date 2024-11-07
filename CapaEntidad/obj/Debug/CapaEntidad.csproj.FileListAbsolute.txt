@@ -64,3 +64,9 @@ C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaEntida
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb

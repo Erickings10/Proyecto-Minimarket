@@ -362,3 +362,43 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-M
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll.config
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\Newtonsoft.Json.xml
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.PantallaYape.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.config
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaDatos.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaDatos.dll.config
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaEntidad.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.pdb
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\CapaLogica.dll.config
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormDashboard.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormAgregarCliente.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormLogin.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormDetalleRequerimiento.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormProductoBajoStock.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteProveedor.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRequerimientoList.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAgregarProducto.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloProveedor.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteCategorias.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloRubro.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloAbastecimiento.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloCategoriaProducto.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloEntradaProductos.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloGerente.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloMedidaProducto.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.ModuloVentas.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormOrdenCompra.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.PantallaYape.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.Properties.Resources.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteProductos.resources
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
+C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
