@@ -22,6 +22,7 @@ namespace SoftwareMinimarket
         public FormDetalleRequerimiento()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             ListarDetalles();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);

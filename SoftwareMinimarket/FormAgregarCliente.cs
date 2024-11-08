@@ -23,6 +23,7 @@ namespace SoftwareMinimarket
         public FormAgregarCliente()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
             this.panelTitleBar.BackColor = borderColor;

@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\DIARS\\Proyecto-Minimarket\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\lenovo\\desktop\\diars\\proyecto-minimarket\\softwareminimarket\\formordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formordencompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\prueba\\proyecto-minimarket\\softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormOrdenCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\FormOrdenCompra.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormOrdenCompra.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\DIARS\\Proyecto-Minimarket\\SoftwareMinimarket\\FormOrdenCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SoftwareMinimarket\\FormOrdenCompra.cs [Dise\u00F1o]",
+              "Title": "ModuloVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloVentas.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:23:19.827Z",
+              "WhenOpened": "2024-11-08T14:17:40.645Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

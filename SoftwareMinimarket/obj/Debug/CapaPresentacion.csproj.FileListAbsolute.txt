@@ -403,3 +403,4 @@ C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\C
 C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe
 C:\Users\lenovo\Desktop\DIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.pdb
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRequerimientoList.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormRequerimientoList.resources

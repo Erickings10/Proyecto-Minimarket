@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public ModuloCategoriaProducto()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             dgvCategoriaProducto.ReadOnly = true;
             ListarCategoria();
             CambiarEncabezados();

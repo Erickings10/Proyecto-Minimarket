@@ -109,7 +109,7 @@
             this.dgvBajoStock.RowTemplate.Height = 24;
             this.dgvBajoStock.Size = new System.Drawing.Size(822, 334);
             this.dgvBajoStock.TabIndex = 6;
-            this.dgvBajoStock.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBajoStock_CellClick);
+            this.dgvBajoStock.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBajoStock_CellDoubleClick);
             // 
             // panelTitleBar
             // 

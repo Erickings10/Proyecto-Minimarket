@@ -23,6 +23,7 @@ namespace SoftwareMinimarket
         public FormRequerimientoList()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             ListarRequerimientos();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
@@ -189,14 +190,6 @@ namespace SoftwareMinimarket
             this.Invalidate();
         }
         //-----------------------------------------------------------------------------------------------
-        private void dgvSeleccion_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            DataGridViewRow fila = dgvReq.Rows[e.RowIndex];
-            RequerimientoID = fila.Cells[0].Value.ToString();
-
-            DialogResult = DialogResult.OK;
-            Close();
-        }
         public void ListarRequerimientos()
         {
             dgvReq.DataSource = logRequerimiento.Instancia.ListarRequerimientos();
@@ -205,6 +198,15 @@ namespace SoftwareMinimarket
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void dgvReq_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow fila = dgvReq.Rows[e.RowIndex];
+            RequerimientoID = fila.Cells[0].Value.ToString();
+
+            DialogResult = DialogResult.OK;
+            Close();
         }
     }
 }

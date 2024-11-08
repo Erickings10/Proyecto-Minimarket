@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public FormProductoBajoStock()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             Listar();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
@@ -192,6 +193,18 @@ namespace SoftwareMinimarket
         public void Listar() 
         {
             dgvBajoStock.DataSource = logProductos.Instancia.ListarProductos();
+            CambiarEncabezados(); 
+        }
+        private void CambiarEncabezados()
+        {
+            dgvBajoStock.Columns["ProductoID"].HeaderText = "ID Producto";
+            dgvBajoStock.Columns["CategoriaproductoID"].HeaderText = "ID Categoria";
+            dgvBajoStock.Columns["unidadMedidaID"].HeaderText = "ID Medida";
+            dgvBajoStock.Columns["descripcion"].HeaderText = "Descripcion";
+            dgvBajoStock.Columns["precioVenta"].HeaderText = "Venta";
+            dgvBajoStock.Columns["cantidad"].HeaderText = "Cantidad";
+            dgvBajoStock.Columns["fecha"].HeaderText = "Fecha";
+            dgvBajoStock.Columns["estado"].HeaderText = "Estado";
         }
         private void btn_Mostrar_Click(object sender, EventArgs e)
         {
@@ -207,17 +220,17 @@ namespace SoftwareMinimarket
             }
         }
 
-        private void dgvBajoStock_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void dgvBajoStock_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow fila = dgvBajoStock.Rows[e.RowIndex];
             productoID = fila.Cells[0].Value.ToString();
             DialogResult = DialogResult.OK;
             Close();
-        }
-
-        private void btnCerrar_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

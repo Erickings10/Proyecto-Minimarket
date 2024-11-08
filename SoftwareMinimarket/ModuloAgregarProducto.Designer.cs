@@ -215,6 +215,8 @@
             // 
             // btnAbrirUdMed
             // 
+            this.btnAbrirUdMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirUdMed.ForeColor = System.Drawing.Color.Black;
             this.btnAbrirUdMed.Location = new System.Drawing.Point(259, 121);
             this.btnAbrirUdMed.Name = "btnAbrirUdMed";
             this.btnAbrirUdMed.Size = new System.Drawing.Size(30, 26);
@@ -259,6 +261,8 @@
             // 
             // btnAbrirCat
             // 
+            this.btnAbrirCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirCat.ForeColor = System.Drawing.Color.Black;
             this.btnAbrirCat.Location = new System.Drawing.Point(259, 33);
             this.btnAbrirCat.Name = "btnAbrirCat";
             this.btnAbrirCat.Size = new System.Drawing.Size(30, 26);

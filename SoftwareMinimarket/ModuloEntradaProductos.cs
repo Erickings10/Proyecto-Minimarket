@@ -28,6 +28,7 @@ namespace SoftwareMinimarket
         public ModuloEntradaProductos()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             ListarEntrada();
             detallesNotaEntrada = new List<entDetalleNotaEntrada>();
             desProducto = new entProductos();
@@ -280,6 +281,7 @@ namespace SoftwareMinimarket
         {
             using (FormReporteProductos formReporteProducto = new FormReporteProductos())
             {
+                this.Hide();
                 if (formReporteProducto.ShowDialog() == DialogResult.OK)
                 {
                     desProducto = formReporteProducto.producto;
@@ -287,7 +289,7 @@ namespace SoftwareMinimarket
                     txtDescripcion.Text = desProducto.descripcion;
                     txtUsuario.Text = FormLogin.usuarioValido.id.ToString();
                 }
-
+                this.Show();
             }
         }
         private void btn_Modificar_Click(object sender, EventArgs e)
