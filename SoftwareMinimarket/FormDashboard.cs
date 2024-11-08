@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public FormDashboard()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             dgvUnderstock.ReadOnly = true;
 
             this.FormBorderStyle = FormBorderStyle.None;

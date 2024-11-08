@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public FormReporteCategorias()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             ListarCategorias();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);

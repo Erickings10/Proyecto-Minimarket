@@ -73,7 +73,7 @@
             this.btn_Mostrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Mostrar.Location = new System.Drawing.Point(558, 52);
             this.btn_Mostrar.Name = "btn_Mostrar";
-            this.btn_Mostrar.Size = new System.Drawing.Size(150, 50);
+            this.btn_Mostrar.Size = new System.Drawing.Size(184, 50);
             this.btn_Mostrar.TabIndex = 10;
             this.btn_Mostrar.Text = "MOSTRAR";
             this.btn_Mostrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -94,7 +94,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(122, 64);
+            this.label2.Location = new System.Drawing.Point(114, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(234, 25);
             this.label2.TabIndex = 7;
@@ -109,7 +109,7 @@
             this.dgvBajoStock.RowTemplate.Height = 24;
             this.dgvBajoStock.Size = new System.Drawing.Size(822, 334);
             this.dgvBajoStock.TabIndex = 6;
-            this.dgvBajoStock.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBajoStock_CellClick);
+            this.dgvBajoStock.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBajoStock_CellDoubleClick);
             // 
             // panelTitleBar
             // 

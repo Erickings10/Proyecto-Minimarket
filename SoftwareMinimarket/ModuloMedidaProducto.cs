@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public ModuloMedidaProducto()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             dgvMedidaProducto.ReadOnly = true;
             ListarMedida();
             CambiarEncabezados();
@@ -301,6 +302,9 @@ namespace SoftwareMinimarket
             }
         }
 
-
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

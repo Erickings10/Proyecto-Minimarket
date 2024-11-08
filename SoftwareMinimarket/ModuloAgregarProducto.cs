@@ -259,6 +259,18 @@ namespace SoftwareMinimarket
         public void ListarProductos()
         {
             dgvProductos.DataSource = logProductos.Instancia.ListarProductos();
+            CambiarEncabezados();
+        }
+        private void CambiarEncabezados() 
+        {
+            dgvProductos.Columns["ProductoID"].HeaderText = "ID Producto";
+            dgvProductos.Columns["CategoriaproductoID"].HeaderText = "ID Categoria";
+            dgvProductos.Columns["unidadMedidaID"].HeaderText = "ID Medida";
+            dgvProductos.Columns["descripcion"].HeaderText = "Descripcion";
+            dgvProductos.Columns["precioVenta"].HeaderText = "Venta";
+            dgvProductos.Columns["cantidad"].HeaderText = "Cantidad";
+            dgvProductos.Columns["fecha"].HeaderText = "Fecha";
+            dgvProductos.Columns["estado"].HeaderText = "Estado";
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {

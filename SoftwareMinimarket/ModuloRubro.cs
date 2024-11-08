@@ -23,6 +23,7 @@ namespace SoftwareMinimarket
         public ModuloRubro()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             listaRubro();
             dgvRubros.ReadOnly = true;
             txtID.Enabled = false;

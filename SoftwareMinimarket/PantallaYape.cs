@@ -15,6 +15,7 @@ namespace SoftwareMinimarket
         public PantallaYape()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnConfirmarVenta_Click(object sender, EventArgs e)

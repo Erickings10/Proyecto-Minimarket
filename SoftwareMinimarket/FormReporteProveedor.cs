@@ -25,6 +25,7 @@ namespace SoftwareMinimarket
         public FormReporteProveedor()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             listarProveedores();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);

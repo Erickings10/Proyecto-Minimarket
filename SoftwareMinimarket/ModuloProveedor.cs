@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public ModuloProveedor()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             listarProveedores();
             txtID.Enabled = false;
             dgvProveedores.ReadOnly = true;

@@ -97,7 +97,7 @@
             this.btnConfirmarVenta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnConfirmarVenta.Image = ((System.Drawing.Image)(resources.GetObject("btnConfirmarVenta.Image")));
             this.btnConfirmarVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfirmarVenta.Location = new System.Drawing.Point(463, 537);
+            this.btnConfirmarVenta.Location = new System.Drawing.Point(474, 537);
             this.btnConfirmarVenta.Name = "btnConfirmarVenta";
             this.btnConfirmarVenta.Size = new System.Drawing.Size(183, 50);
             this.btnConfirmarVenta.TabIndex = 115;
@@ -123,7 +123,7 @@
             this.btnAgregarProd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregarProd.Location = new System.Drawing.Point(252, 166);
             this.btnAgregarProd.Name = "btnAgregarProd";
-            this.btnAgregarProd.Size = new System.Drawing.Size(183, 50);
+            this.btnAgregarProd.Size = new System.Drawing.Size(195, 50);
             this.btnAgregarProd.TabIndex = 114;
             this.btnAgregarProd.Text = "Agregar Producto";
             this.btnAgregarProd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -147,7 +147,7 @@
             this.btnNewCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNewCliente.Location = new System.Drawing.Point(476, 68);
             this.btnNewCliente.Name = "btnNewCliente";
-            this.btnNewCliente.Size = new System.Drawing.Size(148, 50);
+            this.btnNewCliente.Size = new System.Drawing.Size(170, 50);
             this.btnNewCliente.TabIndex = 113;
             this.btnNewCliente.Text = "Nuevo Cliente";
             this.btnNewCliente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -157,6 +157,7 @@
             // 
             // cbMetodoPago
             // 
+            this.cbMetodoPago.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMetodoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMetodoPago.FormattingEnabled = true;
             this.cbMetodoPago.Location = new System.Drawing.Point(225, 487);
@@ -314,7 +315,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 5);
+            this.label1.Location = new System.Drawing.Point(12, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 39);
             this.label1.TabIndex = 113;

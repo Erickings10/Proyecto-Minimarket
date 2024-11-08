@@ -24,6 +24,7 @@ namespace SoftwareMinimarket
         public FormReporteProductos()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             ListarProductos();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
@@ -191,8 +192,19 @@ namespace SoftwareMinimarket
         public void ListarProductos()
         {
             dgvReporteProductos.DataSource = logProductos.Instancia.ListarProductos();
+            CambiarEncabezados();
         }
-
+        private void CambiarEncabezados() 
+        {
+            dgvReporteProductos.Columns["ProductoID"].HeaderText = "ID Producto";
+            dgvReporteProductos.Columns["CategoriaproductoID"].HeaderText = "ID Categoria";
+            dgvReporteProductos.Columns["unidadMedidaID"].HeaderText = "ID Medida";
+            dgvReporteProductos.Columns["descripcion"].HeaderText = "Descripcion";
+            dgvReporteProductos.Columns["precioVenta"].HeaderText = "Venta";
+            dgvReporteProductos.Columns["cantidad"].HeaderText = "Cantidad";
+            dgvReporteProductos.Columns["fecha"].HeaderText = "Fecha";
+            dgvReporteProductos.Columns["estado"].HeaderText = "Estado";
+        }
         private void dgvReporteProductos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)

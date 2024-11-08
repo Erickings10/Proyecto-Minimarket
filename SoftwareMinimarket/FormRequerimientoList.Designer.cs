@@ -51,7 +51,7 @@
             this.dgvReq.RowTemplate.Height = 24;
             this.dgvReq.Size = new System.Drawing.Size(768, 362);
             this.dgvReq.TabIndex = 36;
-            this.dgvReq.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSeleccion_CellClick);
+            this.dgvReq.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvReq_CellDoubleClick);
             // 
             // panelTitleBar
             // 
