@@ -283,13 +283,18 @@ namespace SoftwareMinimarket
             idTemporal++;
             cantidadActual++;
 
+            int requerimientoID = int.Parse(txtRequerimientoID.Text);
+            bool estado = false;
+            logRequerimiento.Instancia.CambiarEstadoRequerimiento(requerimientoID, estado);
+
             // Limpiar los campos de texto
             txtRequerimientoID.Text = "";
             txtPrecioRequerimiento.Text = "";
             txtCantidad.Text = cantidadActual.ToString(); // Mostrar la cantidad incrementada
 
             // Calcular y mostrar el total
-            CalcularTotal();
+            CalcularTotal();          
+
         }
         private void CalcularTotal()
         {
@@ -308,6 +313,9 @@ namespace SoftwareMinimarket
         {
             if (dgvSeleccion.SelectedRows.Count > 0)
             {
+                int requerimientoID = Convert.ToInt32(dgvSeleccion.SelectedRows[0].Cells["RequerimientoID"].Value);
+                bool estado = true;
+                logRequerimiento.Instancia.CambiarEstadoRequerimiento(requerimientoID, estado);
                 dgvSeleccion.Rows.RemoveAt(dgvSeleccion.SelectedRows[0].Index);
             }
             CalcularTotal();

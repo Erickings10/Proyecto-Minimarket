@@ -32,6 +32,10 @@ namespace CapaLogica
         {
             return datRequerimiento.Instancia.ListarRequerimientos();
         }
+        public bool CambiarEstadoRequerimiento(int requerimientoID, bool nuevoEstado)
+        {
+            return datRequerimiento.Instancia.CambiarEstadoRequerimiento(requerimientoID, nuevoEstado);
+        }
 
         #endregion metodos
     }

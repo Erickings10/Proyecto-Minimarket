@@ -95,8 +95,35 @@ namespace CapaDatos
 
             return lista;
         }
+        public bool CambiarEstadoRequerimiento(int requerimientoID, bool nuevoEstado)
+        {
+            SqlCommand cmd = null;
+            bool actualizado = false;
+            try
+            {
+                SqlConnection cn = datConexion.Instancia.Conectar();
+                cmd = new SqlCommand("spCambiarEstadoRequerimiento", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@RequerimientoID", requerimientoID);
+                cmd.Parameters.AddWithValue("@NuevoEstado", nuevoEstado);
+                cn.Open();
 
-
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    actualizado = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return actualizado;
+        }
         #endregion metodos
     }
 }
