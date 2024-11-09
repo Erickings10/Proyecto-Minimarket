@@ -38,7 +38,6 @@
             this.txt_user = new System.Windows.Forms.TextBox();
             this.txt_pass = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.linkpass = new System.Windows.Forms.LinkLabel();
             this.btnminimizar = new System.Windows.Forms.PictureBox();
             this.btncerrar = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -157,19 +156,6 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "LOGIN";
             // 
-            // linkpass
-            // 
-            this.linkpass.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.linkpass.AutoSize = true;
-            this.linkpass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkpass.LinkColor = System.Drawing.Color.DimGray;
-            this.linkpass.Location = new System.Drawing.Point(550, 344);
-            this.linkpass.Name = "linkpass";
-            this.linkpass.Size = new System.Drawing.Size(228, 20);
-            this.linkpass.TabIndex = 0;
-            this.linkpass.TabStop = true;
-            this.linkpass.Text = "¿Haz olvidado la contraseña?";
-            // 
             // btnminimizar
             // 
             this.btnminimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnminimizar.Image")));
@@ -200,7 +186,6 @@
             this.ClientSize = new System.Drawing.Size(945, 390);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnminimizar);
-            this.Controls.Add(this.linkpass);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_pass);
             this.Controls.Add(this.txt_user);
@@ -235,7 +220,6 @@
         private System.Windows.Forms.TextBox txt_user;
         private System.Windows.Forms.TextBox txt_pass;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.LinkLabel linkpass;
         private System.Windows.Forms.PictureBox btnminimizar;
         private System.Windows.Forms.PictureBox btncerrar;
         private System.Windows.Forms.PictureBox pictureBox3;
