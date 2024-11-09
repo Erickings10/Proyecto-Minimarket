@@ -353,5 +353,12 @@ namespace SoftwareMinimarket
             lblEndDate.Text = dtpEndDate.Text;
             dgvUnderstock.Columns[1].Width = 50;
         }
+
+        private void btnAbrirReporteVenta_Click(object sender, EventArgs e)
+        {
+            FormReporteVenta formReporteVenta = new FormReporteVenta();
+            formReporteVenta.Show();
+            this.Close();   
+        }
     }
 }

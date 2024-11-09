@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDashboard));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
@@ -39,6 +38,7 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDashboard));
             this.panelContainer = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.lblEndDate = new System.Windows.Forms.Label();
@@ -75,13 +75,13 @@
             this.btnLast7days = new SoftwareMinimarket.CustomControls();
             this.btnLast30days = new SoftwareMinimarket.CustomControls();
             this.btnThisMonth = new SoftwareMinimarket.CustomControls();
-            this.label2 = new System.Windows.Forms.Label();
             this.dtpEndDate = new System.Windows.Forms.DateTimePicker();
             this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAbrirReporteVenta = new SoftwareMinimarket.CustomControls();
             this.panelContainer.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -105,6 +105,7 @@
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.panelContainer.Controls.Add(this.btnAbrirReporteVenta);
             this.panelContainer.Controls.Add(this.label4);
             this.panelContainer.Controls.Add(this.lblEndDate);
             this.panelContainer.Controls.Add(this.lblStartDate);
@@ -121,7 +122,6 @@
             this.panelContainer.Controls.Add(this.btnLast7days);
             this.panelContainer.Controls.Add(this.btnLast30days);
             this.panelContainer.Controls.Add(this.btnThisMonth);
-            this.panelContainer.Controls.Add(this.label2);
             this.panelContainer.Controls.Add(this.dtpEndDate);
             this.panelContainer.Controls.Add(this.dtpStartDate);
             this.panelContainer.Controls.Add(this.panelTitleBar);
@@ -137,7 +137,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Location = new System.Drawing.Point(418, 87);
+            this.label4.Location = new System.Drawing.Point(468, 87);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.label4.Size = new System.Drawing.Size(15, 21);
@@ -150,7 +150,7 @@
             this.lblEndDate.AutoSize = true;
             this.lblEndDate.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEndDate.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblEndDate.Location = new System.Drawing.Point(455, 84);
+            this.lblEndDate.Location = new System.Drawing.Point(505, 84);
             this.lblEndDate.MinimumSize = new System.Drawing.Size(150, 0);
             this.lblEndDate.Name = "lblEndDate";
             this.lblEndDate.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
@@ -165,7 +165,7 @@
             this.lblStartDate.AutoSize = true;
             this.lblStartDate.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStartDate.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblStartDate.Location = new System.Drawing.Point(249, 84);
+            this.lblStartDate.Location = new System.Drawing.Point(299, 84);
             this.lblStartDate.MinimumSize = new System.Drawing.Size(150, 0);
             this.lblStartDate.Name = "lblStartDate";
             this.lblStartDate.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
@@ -678,22 +678,11 @@
             this.btnThisMonth.UseVisualStyleBackColor = false;
             this.btnThisMonth.Click += new System.EventHandler(this.btnThisMonth_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(18, 72);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 36);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "ESTADISTICAS";
-            // 
             // dtpEndDate
             // 
             this.dtpEndDate.CustomFormat = "MMM dd, yyyy";
             this.dtpEndDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpEndDate.Location = new System.Drawing.Point(455, 84);
+            this.dtpEndDate.Location = new System.Drawing.Point(505, 84);
             this.dtpEndDate.Name = "dtpEndDate";
             this.dtpEndDate.Size = new System.Drawing.Size(145, 22);
             this.dtpEndDate.TabIndex = 2;
@@ -703,7 +692,7 @@
             // 
             this.dtpStartDate.CustomFormat = "MMM dd, yyyy";
             this.dtpStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpStartDate.Location = new System.Drawing.Point(249, 84);
+            this.dtpStartDate.Location = new System.Drawing.Point(299, 84);
             this.dtpStartDate.Name = "dtpStartDate";
             this.dtpStartDate.Size = new System.Drawing.Size(145, 22);
             this.dtpStartDate.TabIndex = 1;
@@ -753,6 +742,30 @@
             this.label1.Size = new System.Drawing.Size(205, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "DASHBOARD";
+            // 
+            // btnAbrirReporteVenta
+            // 
+            this.btnAbrirReporteVenta.BackColor = System.Drawing.Color.DarkViolet;
+            this.btnAbrirReporteVenta.BackgroundColor = System.Drawing.Color.DarkViolet;
+            this.btnAbrirReporteVenta.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnAbrirReporteVenta.BorderRadius = 20;
+            this.btnAbrirReporteVenta.BorderSize = 0;
+            this.btnAbrirReporteVenta.FlatAppearance.BorderSize = 0;
+            this.btnAbrirReporteVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkMagenta;
+            this.btnAbrirReporteVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbrirReporteVenta.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirReporteVenta.ForeColor = System.Drawing.Color.White;
+            this.btnAbrirReporteVenta.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirReporteVenta.Image")));
+            this.btnAbrirReporteVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbrirReporteVenta.Location = new System.Drawing.Point(17, 61);
+            this.btnAbrirReporteVenta.Name = "btnAbrirReporteVenta";
+            this.btnAbrirReporteVenta.Size = new System.Drawing.Size(246, 60);
+            this.btnAbrirReporteVenta.TabIndex = 20;
+            this.btnAbrirReporteVenta.Text = "REPORTE DE VENTA";
+            this.btnAbrirReporteVenta.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAbrirReporteVenta.TextColor = System.Drawing.Color.White;
+            this.btnAbrirReporteVenta.UseVisualStyleBackColor = false;
+            this.btnAbrirReporteVenta.Click += new System.EventHandler(this.btnAbrirReporteVenta_Click);
             // 
             // FormDashboard
             // 
@@ -807,7 +820,6 @@
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.DateTimePicker dtpEndDate;
         private System.Windows.Forms.DateTimePicker dtpStartDate;
-        private System.Windows.Forms.Label label2;
         private CustomControls btnCustomDate;
         private CustomControls btnToday;
         private CustomControls btnLast7days;
@@ -843,5 +855,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private CustomControls btnAbrirReporteVenta;
     }
 }
