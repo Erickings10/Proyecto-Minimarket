@@ -92,6 +92,8 @@ namespace SoftwareMinimarket
             {
                 MessageBox.Show("Usuario o contraseña incorrectos.");
             }
+
+            
         }
 
         private void txt_user_Enter(object sender, EventArgs e)

@@ -1,0 +1,13 @@
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\CapaDatos.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\Newtonsoft.Json.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\QRCoder.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\bin\Release\Newtonsoft.Json.xml
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\obj\Release\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\obj\Release\CapaDatos.csproj.Up2Date
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaDatos\obj\Release\CapaDatos.pdb

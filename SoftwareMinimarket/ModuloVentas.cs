@@ -14,6 +14,7 @@ using System.Windows.Forms;
 
 namespace SoftwareMinimarket
 {
+    
     public partial class ModuloVentas : Form
     {
         private List<entProductos> listaProductos = new List<entProductos>();
@@ -424,8 +425,9 @@ namespace SoftwareMinimarket
             string respuesta = await logBoleta.Instancia.GenerarBoletaAsync(factura);
             MessageBox.Show(respuesta);
 
+            FileHelper fileHelper = new FileHelper();
             // Especifica la ruta donde guardar el PDF
-            string rutaArchivo = @"C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Boletas\boleta.pdf";
+            string rutaArchivo = fileHelper.GenerarRutaArchivoPDF("boleta");
 
             // Llama la función para generar el PDF y guardarlo
             string result = await logBoleta.Instancia.GenerarBoletaPDFAsync(factura, rutaArchivo);

@@ -1,0 +1,15 @@
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaLogica.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaLogica.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaDatos.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\Newtonsoft.Json.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaDatos.dll.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\bin\Release\Newtonsoft.Json.xml
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\obj\Release\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\obj\Release\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\obj\Release\CapaLogica.csproj.Up2Date
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\obj\Release\CapaLogica.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaLogica\obj\Release\CapaLogica.pdb

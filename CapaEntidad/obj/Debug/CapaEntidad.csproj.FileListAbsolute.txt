@@ -46,12 +46,6 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimark
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.dll
-C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.pdb
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Nueva carpeta\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.dll
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Nueva carpeta\Proyecto-Minimarket\CapaEntidad\bin\Debug\CapaEntidad.pdb
 C:\Users\94881\OneDrive\Escritorio\PROYECTO DIARS\Nueva carpeta\Proyecto-Minimarket\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache

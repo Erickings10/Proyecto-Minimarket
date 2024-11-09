@@ -1,0 +1,6 @@
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\bin\Release\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\bin\Release\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Release\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Release\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Release\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoDIARS\Proyecto-Minimarket\CapaEntidad\obj\Release\CapaEntidad.pdb
