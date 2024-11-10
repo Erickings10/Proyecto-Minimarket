@@ -487,3 +487,7 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimark
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.FormReporteVenta.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.exe.manifest
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\bin\Debug\SoftwareMinimarket.application
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.exe.manifest
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\prueba\Proyecto-Minimarket\SoftwareMinimarket\obj\Debug\SoftwareMinimarket.application
