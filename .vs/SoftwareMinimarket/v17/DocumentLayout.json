@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\prueba\\proyecto-minimarket\\capadatos\\datconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415FE3EE-C23D-4D44-BBAC-C2818AB6A466}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\prueba\\proyecto-minimarket\\softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\moduloventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\softwareminimarket\\formreporteventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formreporteventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\softwareminimarket\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\softwareminimarket\\formreporteventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\formreporteventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\softwareminimarket\\reportventas.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{41E9A503-8364-4928-BA30-0A453384FC10}|SoftwareMinimarket\\CapaPresentacion.csproj|solutionrelative:softwareminimarket\\reportventas.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +30,50 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileHelper.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\FileHelper.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\FileHelper.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\FileHelper.cs",
-              "RelativeToolTip": "SoftwareMinimarket\\FileHelper.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "DocumentIndex": 1,
+              "Title": "FormReporteVenta.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteVenta.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormReporteVenta.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteVenta.cs",
+              "RelativeToolTip": "SoftwareMinimarket\\FormReporteVenta.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAxwA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T17:48:08.029Z"
+              "WhenOpened": "2024-11-15T21:00:38.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModuloVentas.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloVentas.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloVentas.cs",
-              "ViewState": "AQIAAJsBAAAAAAAAAAAcwK0BAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T14:21:46.634Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "ReportVentas.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ReportVentas.rdlc",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\ReportVentas.rdlc",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ReportVentas.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\ReportVentas.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-15T20:41:41.762Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ModuloVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs",
-              "RelativeDocumentMoniker": "SoftwareMinimarket\\ModuloVentas.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SoftwareMinimarket\\ModuloVentas.cs [Dise\u00F1o]",
+              "Title": "datConexion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\CapaDatos\\datConexion.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\datConexion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\CapaDatos\\datConexion.cs",
+              "RelativeToolTip": "CapaDatos\\datConexion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T13:46:48.336Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-15T20:38:58.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormReporteVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteVenta.cs",
+              "RelativeDocumentMoniker": "SoftwareMinimarket\\FormReporteVenta.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\prueba\\Proyecto-Minimarket\\SoftwareMinimarket\\FormReporteVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SoftwareMinimarket\\FormReporteVenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:21:58.162Z"
             }
           ]
         }

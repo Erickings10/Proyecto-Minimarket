@@ -2,14 +2,15 @@
 <xs:schema id="DataSetMostrarFecha" targetNamespace="http://tempuri.org/DataSetMostrarFecha.xsd" xmlns:mstns="http://tempuri.org/DataSetMostrarFecha.xsd" xmlns="http://tempuri.org/DataSetMostrarFecha.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BaseMinimarketConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BaseMinimarketConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SoftwareMinimarket.Properties.Settings.GlobalReference.Default.BaseMinimarketConnectionString" Provider="Microsoft.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BaseMinimarketConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BaseMinimarketConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SoftwareMinimarket.Properties.Settings.GlobalReference.Default.BaseMinimarketConnectionString1" Provider="Microsoft.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="getSalesOrderTableAdapter" GeneratorDataComponentClassName="getSalesOrderTableAdapter" Name="getSalesOrder" UserDataComponentName="getSalesOrderTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="BaseMinimarketConnectionString (Settings)" DbObjectName="BaseMinimarket.dbo.getSalesOrder" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="BaseMinimarketConnectionString1 (Settings)" DbObjectName="BaseMinimarket.dbo.getSalesOrder" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
                   <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
                     <CommandText>dbo.getSalesOrder</CommandText>
@@ -36,7 +37,7 @@
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="DataSetMostrarFecha" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSetMostrarFecha" msprop:Generator_DataSetName="DataSetMostrarFecha">
+  <xs:element name="DataSetMostrarFecha" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetMostrarFecha" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetMostrarFecha">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="getSalesOrder" msprop:Generator_RowEvHandlerName="getSalesOrderRowChangeEventHandler" msprop:Generator_RowDeletedName="getSalesOrderRowDeleted" msprop:Generator_RowDeletingName="getSalesOrderRowDeleting" msprop:Generator_RowEvArgName="getSalesOrderRowChangeEvent" msprop:Generator_TablePropName="getSalesOrder" msprop:Generator_RowChangedName="getSalesOrderRowChanged" msprop:Generator_RowChangingName="getSalesOrderRowChanging" msprop:Generator_TableClassName="getSalesOrderDataTable" msprop:Generator_RowClassName="getSalesOrderRow" msprop:Generator_TableVarName="tablegetSalesOrder" msprop:Generator_UserTableName="getSalesOrder">

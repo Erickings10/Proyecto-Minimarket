@@ -33,5 +33,16 @@ namespace SoftwareMinimarket.Properties {
                 return ((string)(this["BaseMinimarketConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=34.176.217.152;Initial Catalog=BaseMinimarket;User ID=sqlserver;Passw" +
+            "ord=sa123;Encrypt=True;TrustServerCertificate=True")]
+        public string BaseMinimarketConnectionString1 {
+            get {
+                return ((string)(this["BaseMinimarketConnectionString1"]));
+            }
+        }
     }
 }

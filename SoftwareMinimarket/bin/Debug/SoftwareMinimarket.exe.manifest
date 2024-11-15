@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yo0nKqeu2hEVeOXPrXYxkwUnwCeKNyTALgBNlOrnaJs=</dsig:DigestValue>
+        <dsig:DigestValue>NYSwaiWleWNpp41xqQQwoB3DBSORCKHYW24Ezuz1/PU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -919,14 +919,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SoftwareMinimarket.exe" size="1144304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SoftwareMinimarket.exe" size="1144816">
       <assemblyIdentity name="SoftwareMinimarket" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sPehe85zeJe/MqUYmQOe8IqHwZU8D9hirlM+iGfYQsg=</dsig:DigestValue>
+        <dsig:DigestValue>bl4JJ+/9o5ri2UQ2cidkASdyBQp8qhGTT6e+R6g2Uh0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1194,13 +1194,13 @@
       <dsig:DigestValue>g9QqPSkzxtsk849i8aQiNUgyEDtAZWqqWehb+rOnGkA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SoftwareMinimarket.exe.config" size="2933">
+  <file name="SoftwareMinimarket.exe.config" size="3271">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>3FCw54wrLN+2nDgT7Yavpf9VT8U/gxRTWfx0z2+b1S4=</dsig:DigestValue>
+      <dsig:DigestValue>fhUnigOqMwW15cWh8xMTcpDJUNbAuvi8r5yoptHX4bo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SqlServerTypes\readme.htm" size="2369">

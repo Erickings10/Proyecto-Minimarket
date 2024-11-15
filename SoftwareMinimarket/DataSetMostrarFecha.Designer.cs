@@ -902,7 +902,7 @@ namespace SoftwareMinimarket.DataSetMostrarFechaTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Microsoft.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::SoftwareMinimarket.Properties.Settings.Default.BaseMinimarketConnectionString;
+            this._connection.ConnectionString = global::SoftwareMinimarket.Properties.Settings.Default.BaseMinimarketConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

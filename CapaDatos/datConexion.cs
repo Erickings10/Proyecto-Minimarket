@@ -18,7 +18,7 @@ namespace CapaDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Server=34.67.49.87; Database=BaseMinimarket; Uid=sqlserver; Pwd=sa123;";
+            cn.ConnectionString = "Server=34.176.217.152; Database=BaseMinimarket; Uid=sqlserver; Pwd=sa123;";
             return cn;
         }
     }
