@@ -23,6 +23,9 @@ namespace SoftwareMinimarket
         private int borderRadius = 20;
         private int borderSize = 2;
         private Color borderColor = Color.RoyalBlue;
+
+        public bool PagoConfirmado { get; private set; } = false;
+
         public ModuloVentas()
         {
             InitializeComponent();
@@ -193,7 +196,7 @@ namespace SoftwareMinimarket
             this.Invalidate();
         }
         //-------------------------------------------------------------------------------------------------
-        private void CargarComboBoxClientes()
+        private void CargarComboBoxClientes()   
         {
             try
             {
@@ -300,7 +303,7 @@ namespace SoftwareMinimarket
             nupCantidad.Value = 0;
         }
         private async void btnConfirmarVenta_Click(object sender, EventArgs e)
-        {
+        {           
             entMetodoPago metodoPago = logMetodoPago.Instancia.BuscarMetodoPago((int)cbMetodoPago.SelectedValue);
             entCliente cliente = logCliente.Instancia.BuscarClientePorID((int)cbClientes.SelectedValue);
             string totalEnLetras = NumeroALetras(decimal.Parse(txtTotalVenta.Text) + (decimal.Parse(txtTotalVenta.Text) * 18 / 100));
@@ -308,6 +311,11 @@ namespace SoftwareMinimarket
             if (metodoPago.MetododepagoID == 1)
             {
                 AbrirYape();
+                if (!PagoConfirmado)
+                {
+                    MessageBox.Show("El pago no ha sido confirmado. Por favor, confirme el pago antes de registrar la venta.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
             }
             //enviar a la base de datos
 
@@ -436,14 +444,26 @@ namespace SoftwareMinimarket
 
         private void AbrirYape()
         {
-            using (PantallaYape formulario = new PantallaYape())
+            entCliente cliente = logCliente.Instancia.BuscarClientePorID((int)cbClientes.SelectedValue);
+            decimal montoTotal = decimal.Parse(txtTotalVenta.Text);
+
+            using (PantallaYape formulario = new PantallaYape(cliente.NombreCompleto, montoTotal))
             {
                 if (formulario.ShowDialog() == DialogResult.OK)
                 {
-                    CargarComboBoxClientes();
+                    // Actualizar el estado del pago en ModuloVenta
+                    if (formulario.PagoExitoso)
+                    {
+                        MessageBox.Show("Pago confirmado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("El pago no fue confirmado.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
             }
         }
+
         private string NumeroALetras(decimal numero)
         {
             string decimales = (numero % 1).ToString("0.00").Substring(2); // Extrae los decimales
@@ -496,5 +516,7 @@ namespace SoftwareMinimarket
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+
     }
 }
